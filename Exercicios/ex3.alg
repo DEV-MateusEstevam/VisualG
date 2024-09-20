@@ -1,14 +1,14 @@
-algoritmo "ex3"
+algoritmo "ex003"
 
 var
     nome: caractere
     sal: real
 inicio
-      escreval("3) Crie um programa que leia o nome e o salário de um funcionário, mostrando")
+      escreval("3) Crie um programa que leia o nome e o salÃ¡rio de um funcionÃ¡rio, mostrando")
       escreval("no final uma mensagem.")
-      escreva("Nome do funcionário: ")
+      escreva("Nome do funcionÃ¡rio: ")
       leia(nome)
-      escreva("Salário(reais.centavos): ")
+      escreva("SalÃ¡rio(reais.centavos): ")
       leia(sal)
-      escreva("O funcionário ", nome, " tem um salário de R$", sal," em Junho.")
+      escreva("O funcionÃ¡rio ", nome, " tem um salÃ¡rio de R$", sal," em Junho.")
 fimalgoritmo
