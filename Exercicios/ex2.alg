@@ -1,8 +1,9 @@
+algoritmo "ex002"
 var
     nome: caractere
 inicio
-      escreval("2) Fa√ßa um programa que leia o nome de uma pessoa e mostre uma mensagem de boasvindas para ela:")
-      escreva("Qual √© o seu nome? ")
+      escreval("2) FaÁa um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas para ela:")
+      escreva("Qual È o seu nome? ")
       leia(nome)
-      escreva("Ol√° ",nome," √© um prazer te conhecer!")
+      escreva("Ol· ",nome," È um prazer te conhecer!")
 fimalgoritmo
