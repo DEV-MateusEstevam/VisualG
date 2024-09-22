@@ -1,11 +1,10 @@
-algoritmo "Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor."
-// Função :
-// Autor :
-// Data : 18/06/2022
-// Seção de Declarações 
+algoritmo "ex006"
+
 var
      n, a, s: inteiro
 inicio
+      escreval("6) Faça um programa que leia um número inteiro e mostre o seu antecessor e seu")
+      escreval("sucessor.")
       escreva("Digite um número: ")
       leia(n)
       a <- n - 1
