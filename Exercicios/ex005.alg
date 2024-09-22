@@ -1,12 +1,11 @@
-algoritmo "Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina"
-// Função :
-// Autor :
-// Data : 18/06/2022
-// Seção de Declarações 
+algoritmo "ex005"
+
 var
    n: caractere
    n1, n2, m: real
 inicio
+      escreval("5) Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na")
+      escreval("tela a sua média na disciplina.")
       escreva("Aluno digite o seu nome: ")
       leia(n)
       escreva("Nota 1: ")
