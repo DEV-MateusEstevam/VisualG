@@ -1,11 +1,10 @@
-algoritmo "Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45."
-// Função :
-// Autor :
-// Data : 19/06/2022
-// Seção de Declarações 
+algoritmo "ex009"
+
 var
      din, dol, res: real
 inicio
+      escreval("9) Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) e")
+      escreval("mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.")
       escreva("Digite aqui qual o valor você tem na carteira(em R$): ")
       leia(din)
       dol <- din / 3.45
