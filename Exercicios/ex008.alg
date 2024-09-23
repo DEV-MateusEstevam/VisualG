@@ -1,12 +1,11 @@
-algoritmo "Desenvolva um programa que leia uma distância em metros e mostre os valores relativos em outras medidas."
-// Função :
-// Autor :
-// Data : 19/06/2022
-// Seção de Declarações 
+algoritmo "ex008"
+
 var
    dis, mm, cm, dm, dam, hm, km: real
 
 inicio
+      escreval("8) Desenvolva um programa que leia uma distância em metros e mostre os valores")
+      escreval("relativos em outras medidas.")
       escreva("Digite uma distância em metros: ")
       leia(dis)
       mm <- dis * 1000 //milimetro
