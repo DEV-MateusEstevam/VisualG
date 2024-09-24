@@ -16,5 +16,6 @@ inicio
       escreval()
       escreval("A area desta parede é de",area," metros quadrados e seram utilizados",tinta," litros")
       escreval("de tinta para pintar esta parede.")
+      escreval()
       
 fimalgoritmo
