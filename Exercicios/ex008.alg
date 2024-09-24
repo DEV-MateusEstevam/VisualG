@@ -6,6 +6,7 @@ var
 inicio
       escreval("8) Desenvolva um programa que leia uma distância em metros e mostre os valores")
       escreval("relativos em outras medidas.")
+      escreval()
       escreva("Digite uma distância em metros: ")
       leia(dis)
       mm <- dis * 1000 //milimetro
@@ -14,6 +15,7 @@ inicio
       dam <- dis / 10 //Decametro
       hm <- dis / 100 //hectometro
       km <- dis / 1000 //quilometro
+      escreval()
       escreval("A distância de",dis,"m corresponde a: ")
       escreval(km," quilometros")
       escreval(hm," hectometros")
