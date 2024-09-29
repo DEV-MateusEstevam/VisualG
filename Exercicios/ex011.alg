@@ -20,6 +20,5 @@ inicio
       escreval("Fórmula de DELTA: B² - 4 . A . C")
       delta <- B^2 - 4 * A * C
       escreval()
-      escreva("O valor de delta é:",delta)
-      escreval()
+      escreval("O valor de delta é:",delta)
 fimalgoritmo
