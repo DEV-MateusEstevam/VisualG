@@ -13,7 +13,5 @@ inicio
       escreval("O antecessor de",n," é", a)
       escreval()
       s <- n + 1
-      escreva("O sucessor de",n," é", s)
-      escreval()
-      
+      escreval("O sucessor de",n," é", s)
 fimalgoritmo
