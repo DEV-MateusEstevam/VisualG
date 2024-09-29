@@ -10,6 +10,5 @@ inicio
       leia(din)
       dol <- din / 3.45
       escreval()
-      escreva("Com R$",din," você consegue comprar US$",dol:5:2)
-      escreval()
+      escreval("Com R$",din," você consegue comprar US$",dol:5:2)
 fimalgoritmo
