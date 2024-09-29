@@ -14,8 +14,7 @@ inicio
       area <- lar * alt
       tinta <- area / 2
       escreval()
-      escreval("A area desta parede é de",area," metros quadrados e seram utilizados",tinta," litros")
-      escreval("de tinta para pintar esta parede.")
-      escreval()
+      escreval("A area desta parede é de",area:5:2," metros quadrados e seram utilizados",tinta:5:2," litros de")
+      escreval("tinta para pintar esta parede.")
       
 fimalgoritmo
