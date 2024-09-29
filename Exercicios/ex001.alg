@@ -1,8 +1,7 @@
 algoritmo "ex001"
 inicio
-      escreval("1) Escreva um programa que mostre na tela a mensagem 'Ol·, Mundo!'")
+      escreval("1) Escreva um programa que mostre na tela a mensagem 'Ol√°, Mundo!'")
       escreval()
-      escreval("Ol·, Mundo!")//escreva + l = escreva e salte a linha
-      escreva("Me livrei da MaldiÁ„o!")
-      escreval()
+      escreval("Ol√°, Mundo!")//escreva + l = escreva e salte a linha
+      escreval("Me livrei da Maldi√ß√£o!")
 fimalgoritmo
