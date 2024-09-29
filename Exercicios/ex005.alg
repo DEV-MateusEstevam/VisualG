@@ -17,6 +17,5 @@ inicio
       leia(n2)
       escreval()
       m <- (n1 + n2)/2
-      escreva("A média entre",n1," e",n2, " é igual a",m )
-      escreval()
+      escreval("A média entre",n1," e",n2, " é igual a",m )
 fimalgoritmo
