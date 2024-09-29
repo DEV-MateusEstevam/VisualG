@@ -11,8 +11,7 @@ inicio
       escreval()
       d <- n * 2
       escreval("O dobro de",n," é",d)
-      escreval()
       t <- n / 3
-      escreva(" A terça parte de",n," é", t)
       escreval()
+      escreval("A terça parte de",n," é", t)
 fimalgoritmo
