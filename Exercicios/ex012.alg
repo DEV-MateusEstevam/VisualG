@@ -11,6 +11,5 @@ inicio
       promo <- p -(p / 100 * 5)
       //promo2 <- p - (promo * 5)
       escreval()
-      escreva("O PREÇO PROMOCIONAL COM 5% de desconto do valor do produto digitado é de ", promo:6:2)
-      escreval()
+      escreval("O PREÇO PROMOCIONAL COM 5% de desconto do valor do produto digitado é de ", promo:6:2)
 fimalgoritmo
