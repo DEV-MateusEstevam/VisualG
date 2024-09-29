@@ -19,6 +19,5 @@ inicio
       kms <- km * 0.20
       escreval("Valor total dos km rodados pelo carro:",km," que é igual a R$",kms)
       tp <- dias + kms
-      escreva("Assim o valor total a ser pago é de: R$",tp)
-      escreval()
+      escreval("Assim o valor total a ser pago é de: R$",tp)
 fimalgoritmo
