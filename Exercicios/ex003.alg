@@ -13,6 +13,5 @@ inicio
       escreva("Salário(reais.centavos): ")
       leia(sal)
       escreval()
-      escreva("O funcionário ", nome, " tem um salário de R$", sal," em Junho.")
-      escreval()
+      escreval("O funcionário ", nome, " tem um salário de R$", sal," em Junho.")
 fimalgoritmo
