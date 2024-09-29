@@ -3,16 +3,15 @@ algoritmo "ex004"
 var
    n1, n2, s: inteiro
 inicio
-      escreval("4) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório")
+      escreval("4) Desenvolva um algoritmo que leia dois nÃºmeros inteiros e mostre o somatÃ³rio")
       escreval("entre eles.")
       escreval()
-      escreva("Digite um número: ")
+      escreva("Digite um nÃºmero: ")
       leia(n1)
       escreval()
-      escreva("Digite outro número: ")
+      escreva("Digite outro nÃºmero: ")
       leia(n2)
       escreval()
       s <- n1 + n2
-      escreva(" A soma entre",n1," e",n2," é igual a",s,".")
-      escreval()
+      escreval(" A soma entre",n1," e",n2," Ã© igual a",s,".")
 fimalgoritmo
