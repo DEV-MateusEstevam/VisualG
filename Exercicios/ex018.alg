@@ -1,20 +1,21 @@
-algoritmo "Faça um programa que leia o ano de nascimento de uma pessoa, calcule a idade dela e depois mostre se ela pode ou não votar"
-// Função :
-// Autor :
-// Data : 20/06/2022
-// Seção de Declarações
+algoritmo "ex018"
+
 var
 at, an, id: inteiro
 inicio
+      escreval("18) Faça um programa que leia o ano de nascimento de uma pessoa, calcule a idade")
+      escreval("dela e depois mostre se ela pode ou não votar.")
+      escreval()
       escreva("Em que ano estamos? ")
       leia(at)
       escreva("Em qual ano vc nasceu? ")
       leia(an)
       id <- (at - an)
-      escreva("Você tem ",id," anos! ")
+      escreval()
+      escreval("Você tem ",id," anos! ")
       se(id < 18) entao
-            escreva("Não precisa votar!")
+            escreval("Não precisa votar!")
       senao
-           escreva("Seu voto é Obrigatório!")
+           escreval("Seu voto é Obrigatório!")
       fimse
 fimalgoritmo
