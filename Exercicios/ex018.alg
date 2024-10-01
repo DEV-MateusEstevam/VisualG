@@ -1,10 +1,10 @@
 algoritmo "ex018"
 
 var
-at, an, id: inteiro
+      at, an, id: inteiro
 inicio
-      escreval("18) FaÁa um programa que leia o ano de nascimento de uma pessoa, calcule a idade")
-      escreval("dela e depois mostre se ela pode ou n„o votar.")
+      escreval("18) Fa√ßa um programa que leia o ano de nascimento de uma pessoa, calcule a idade")
+      escreval("dela e depois mostre se ela pode ou n√£o votar.")
       escreval()
       escreva("Em que ano estamos? ")
       leia(at)
@@ -12,10 +12,10 @@ inicio
       leia(an)
       id <- (at - an)
       escreval()
-      escreval("VocÍ tem ",id," anos! ")
+      escreval("Voc√™ tem ",id," anos! ")
       se(id < 18) entao
-            escreval("N„o precisa votar!")
+            escreval("N√£o precisa votar!")
       senao
-           escreval("Seu voto È ObrigatÛrio!")
+           escreval("Seu voto √© Obrigat√≥rio!")
       fimse
 fimalgoritmo
