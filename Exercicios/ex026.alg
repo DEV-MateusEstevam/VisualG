@@ -1,25 +1,26 @@
-algoritmo " Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando na tela uma das mensagens abaixo:
-//- O primeiro valor é o maior
-//- O segundo valor é o maior
-//- Não existe valor maior, os dois são iguais"
-// Função :
-// Autor :
-// Data : 26/06/2022
-// Seção de Declarações 
+algoritmo "ex026"
+
 var
    n1, n2: inteiro
 inicio
-      escreva("Digite um número: ")
+      escreval("26) Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando na")
+      escreval("tela uma das mensagens abaixo:")
+      escreval("- O primeiro valor é o maior")
+      escreval("- O segundo valor é o maior")
+      escreval("- Não existe valor maior, os dois são iguais")
+      escreval
+      escreva("Digite o 1° número: ")
       leia(n1)
-      escreva("Digite outro número: ")
+      escreva("Digite o 2° número: ")
       leia(n2)
+      escreval()
       se (n1 > n2)entao
-         escreva("O primeiro valor é o maior")
+         escreval("O primeiro valor é o maior")
       senao
            se (n2 > n1) entao
-              escreva("O segundo valor é maior")
+              escreval("O segundo valor é maior")
            senao
-                escreva("Não existe valor maior, os dois são iguais")
+                escreval("Não existe valor maior, os dois são iguais")
            fimse
       fimse
       
