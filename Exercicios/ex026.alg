@@ -1,5 +1,4 @@
 algoritmo "ex026"
-
 var
    n1, n2: inteiro
 inicio
@@ -23,5 +22,4 @@ inicio
                 escreval("Não existe valor maior, os dois são iguais")
            fimse
       fimse
-      
 fimalgoritmo
