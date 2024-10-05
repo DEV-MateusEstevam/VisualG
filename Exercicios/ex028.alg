@@ -1,5 +1,4 @@
 algoritmo "ex028"
-
 var
    lar, com, area:real
 inicio
