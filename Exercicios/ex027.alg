@@ -1,4 +1,4 @@
-algoritmo "Crie um programa que leia duas notas de um aluno e calcule a sua média, mostrando uma mensagem no final, de acordo com a média atingida:
+algoritmo "ex027"
 var
    n1, n2, media: real
 inicio
@@ -23,5 +23,4 @@ inicio
                 escreval("Sua média é ",media:3:1," e felizmente você foi APROVADO!")
            fimse
       fimse
-      
 fimalgoritmo
