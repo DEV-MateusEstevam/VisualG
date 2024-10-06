@@ -1,17 +1,16 @@
 algoritmo "ex021"
-
 var
    ano: inteiro
 inicio
-      escreval("21) FaÁa um algoritmo que leia um determinado ano e mostre se ele È ou n„o")
+      escreval("21) Fa√ßa um algoritmo que leia um determinado ano e mostre se ele √© ou n√£o")
       escreval("BISSEXTO.")
       escreval()
-      escreva("Digite um ano e descubra se este È,foi ou ser· BISSEXTO: ")
+      escreva("Digite um ano e descubra se este √©,foi ou ser√° BISSEXTO: ")
       leia(ano)
       escreval()
       se ( ano % 4 = 0) ou (ano % 400 = 0) entao
-         escreval("O ano de", ano," È, foi ou ser· BISSEXTO!")
+         escreval("O ano de", ano," √©, foi ou ser√° BISSEXTO!")
       senao
-           escreval("O ano de", ano," n„o È,foi ou ser· BISSEXTO!")
+           escreval("O ano de", ano," n√£o √©,foi ou ser√° BISSEXTO!")
       fimse
 fimalgoritmo
