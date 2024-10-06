@@ -1,12 +1,11 @@
 algoritmo "ex025"
-
 var
      l1, l2, l3: inteiro
      t1, t2,t3: logico
 inicio
-      escreval("25) [DESAFIO] Crie um programa que leia o tamanho de três segmentos de reta.")
-      escreval("Analise seus comprimentos e diga se é possível formar um triângulo com essas retas.")
-      escreval("Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada")
+      escreval("25) [DESAFIO] Crie um programa que leia o tamanho de trÃªs segmentos de reta.")
+      escreval("Analise seus comprimentos e diga se Ã© possÃ­vel formar um triÃ¢ngulo com essas retas.")
+      escreval("Matematicamente, para trÃªs segmentos formarem um triÃ¢ngulo, o comprimento de cada")
       escreval("lado deve ser menor que a soma dos outros dois.")
       escreval()
       escreva("Digite o tamanho do primeiro comprimento: ")
@@ -21,9 +20,8 @@ inicio
       t3 <- l3<(l1+l2)
       escreval()
       se ((t1 = verdadeiro ) e (t2 = verdadeiro) e (t3 = verdadeiro))entao
-         escreval("Com os seguintes comprimentos:",l1,l2,l3," É possivel formar um triângulo!")
+         escreval("Com os seguintes comprimentos:",l1,l2,l3," Ã‰ possivel formar um triÃ¢ngulo!")
       senao
-           escreval("Com os seguintes comprimentos:",l1,l2,l3," NÂO é possivel formar um triângulo!")
+           escreval("Com os seguintes comprimentos:",l1,l2,l3," NÃ‚O Ã© possivel formar um triÃ¢ngulo!")
       fimse
-      
 fimalgoritmo
