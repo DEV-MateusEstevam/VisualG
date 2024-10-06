@@ -1,17 +1,16 @@
 algoritmo " ex020"
-
 var
       n1, n2 : inteiro
 inicio
-      escrevaL("20) Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou")
-      escreval("ÍMPAR.")
+      escrevaL("20) Desenvolva um programa que leia um nÃºmero inteiro e mostre se ele Ã© PAR ou")
+      escreval("ÃMPAR.")
       escreval()
-      escreva("Digite um número inteiro: ")
+      escreva("Digite um nÃºmero inteiro: ")
       leia(n1)
       escreval()
       Se (n1 % 2 = 0) entao
-         escreval("O número",n1," é PAR!")
+         escreval("O nÃºmero",n1," Ã© PAR!")
       senao
-           escreval("O número",n1, " é IMPAR!")
+           escreval("O nÃºmero",n1, " Ã© IMPAR!")
        fimse
 fimalgoritmo
