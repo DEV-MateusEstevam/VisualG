@@ -1,5 +1,4 @@
 algoritmo "ex003"
-
 var
     nome: caractere
     sal: real
