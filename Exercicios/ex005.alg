@@ -1,11 +1,10 @@
 algoritmo "ex005"
-
 var
    n: caractere
    n1, n2, m: real
 inicio
-      escreval("5) Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na")
-      escreval("tela a sua média na disciplina.")
+      escreval("5) FaÃ§a um programa que leia as duas notas de um aluno em uma matÃ©ria e mostre na")
+      escreval("tela a sua mÃ©dia na disciplina.")
       escreval()
       escreva("Aluno digite o seu nome: ")
       leia(n)
@@ -17,5 +16,5 @@ inicio
       leia(n2)
       escreval()
       m <- (n1 + n2)/2
-      escreval("A média entre",n1," e",n2, " é igual a",m )
+      escreval("A mÃ©dia entre",n1," e",n2, " Ã© igual a",m )
 fimalgoritmo
