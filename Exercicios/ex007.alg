@@ -1,17 +1,16 @@
 algoritmo "ex007"
-
 var
      n, d, t:real
 inicio
-      escreval("7) Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a sua")
-      escreval("terça parte.")
+      escreval("7) Crie um algoritmo que leia um nÃºmero real e mostre na tela o seu dobro e a sua")
+      escreval("terÃ§a parte.")
       escreval()
-      escreva("Digite um número: ")
+      escreva("Digite um nÃºmero: ")
       leia(n)
       escreval()
       d <- n * 2
-      escreval("O dobro de",n," é",d)
+      escreval("O dobro de",n," Ã©",d)
       t <- n / 3
       escreval()
-      escreval("A terça parte de",n," é", t)
+      escreval("A terÃ§a parte de",n," Ã©", t)
 fimalgoritmo
