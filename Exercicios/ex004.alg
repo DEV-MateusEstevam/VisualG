@@ -1,5 +1,4 @@
 algoritmo "ex004"
-
 var
    n1, n2, s: inteiro
 inicio
