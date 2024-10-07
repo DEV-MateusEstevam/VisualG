@@ -1,13 +1,11 @@
 algoritmo "ex008"
-
 var
    dis, mm, cm, dm, dam, hm, km: real
-
 inicio
-      escreval("8) Desenvolva um programa que leia uma dist‚ncia em metros e mostre os valores")
+      escreval("8) Desenvolva um programa que leia uma dist√¢ncia em metros e mostre os valores")
       escreval("relativos em outras medidas.")
       escreval()
-      escreva("Digite uma dist‚ncia em metros: ")
+      escreva("Digite uma dist√¢ncia em metros: ")
       leia(dis)
       mm <- dis * 1000 //milimetro
       cm <- dis * 100 //centimetro
@@ -16,7 +14,7 @@ inicio
       hm <- dis / 100 //hectometro
       km <- dis / 1000 //quilometro
       escreval()
-      escreval("A dist‚ncia de",dis,"m corresponde a: ")
+      escreval("A dist√¢ncia de",dis,"m corresponde a: ")
       escreval(km," quilometros")
       escreval(hm," hectometros")
       escreval(dam," decametros")
