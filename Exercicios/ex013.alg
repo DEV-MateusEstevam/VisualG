@@ -1,14 +1,13 @@
 algoritmo "ex013"
-
 var
    sal, novo: real
 inicio
-      escreval("13) FaÁa um algoritmo que leia o sal·rio de um funcion·rio, calcule e mostre o seu")
-      escreval("novo sal·rio, com 15% de aumento.")
+      escreval("13) Fa√ßa um algoritmo que leia o sal√°rio de um funcion√°rio, calcule e mostre o seu")
+      escreval("novo sal√°rio, com 15% de aumento.")
       escreval()
-      escreva("Favor funcion·rio digite o valor do seu sal·rio: ")
+      escreva("Favor funcion√°rio digite o valor do seu sal√°rio: ")
       leia(sal)
       novo <- sal +(sal/100 * 15)
       escreval()
-      escreval("O seu s·lario sofreu um aumento de 15%, portanto ele est· no valor de R$", novo:6:2)
+      escreval("O seu s√°lario sofreu um aumento de 15%, portanto ele est√° no valor de R$", novo:6:2)
 fimalgoritmo
