@@ -1,19 +1,18 @@
 algoritmo "ex010"
-
 var
       lar, alt, area, tinta: real
 inicio
-      escrevaL("FaÁa um algoritmo que leia a largura e altura de uma parede, calcule e mostre a")
-      escreval("·rea a ser pintada e a quantidade de tinta necess·ria para o serviÁo, sabendo que")
-      escreval("cada litro de tinta pinta uma ·rea de 2 metros quadrados.")
+      escrevaL("Fa√ßa um algoritmo que leia a largura e altura de uma parede, calcule e mostre a")
+      escreval("√°rea a ser pintada e a quantidade de tinta necess√°ria para o servi√ßo, sabendo que")
+      escreval("cada litro de tinta pinta uma √°rea de 2 metros quadrados.")
       escreval()
-      escreva("Qual È altura da parede em metros: ")
+      escreva("Qual √© altura da parede em metros: ")
       leia(alt)
-      escreva("Qual È a largura da parede em metros: ")
+      escreva("Qual √© a largura da parede em metros: ")
       leia(lar)
       area <- lar * alt
       tinta <- area / 2
       escreval()
-      escreval("A area desta parede È de",area:5:2," metros quadrados e seram utilizados",tinta:5:2," litros de")
+      escreval("A area desta parede √© de",area:5:2," metros quadrados e seram utilizados",tinta:5:2," litros de")
       escreval("tinta para pintar esta parede.")
 fimalgoritmo
