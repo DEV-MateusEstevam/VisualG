@@ -1,13 +1,11 @@
 algoritmo "ex011"
-
 var
      A, B, C, delta: real
-     
 inicio
-      escreval("11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do")
+      escreval("11) Desenvolva uma lÃ³gica que leia os valores de A, B e C de uma equaÃ§Ã£o do")
       escreval("segundo grau e mostre o valor de Delta.")
       escreval()
-      escreval("Fórmula equação do 2° grau: Ax² + Bx + C = 0")
+      escreval("FÃ³rmula equaÃ§Ã£o do 2Â° grau: AxÂ² + Bx + C = 0")
       escreva("Digite o valor de A: ")
       leia(A)
       escreva("digite o valor de B: ")
@@ -15,10 +13,10 @@ inicio
       escreva("Digite o valor de C: ")
       leia(C)
       escreval()
-      escreval("Inseridos os valores a equação fica da seguinte forma:",A,"x² +",B,"x +",C," = 0")
+      escreval("Inseridos os valores a equaÃ§Ã£o fica da seguinte forma:",A,"xÂ² +",B,"x +",C," = 0")
       escreval()
-      escreval("Fórmula de DELTA: B² - 4 . A . C")
+      escreval("FÃ³rmula de DELTA: BÂ² - 4 . A . C")
       delta <- B^2 - 4 * A * C
       escreval()
-      escreval("O valor de delta é:",delta)
+      escreval("O valor de delta Ã©:",delta)
 fimalgoritmo
