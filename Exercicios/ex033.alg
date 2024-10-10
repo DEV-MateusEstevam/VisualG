@@ -3,6 +3,11 @@ var
    Vcasa, Vcom, Tsal, Vpar: real
    ano: inteiro
 inicio
+      escreval("33) Escreva um programa para aprovar ou não o empréstimo bancário para a compra de")
+      escreval("uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em")
+      escreval("quantos anos ele vai pagar. Calcule o valor da prestação mensal, sabendo que ela")
+      escreval("não pode exceder 30% do salário ou então o empréstimo será negado.")
+      escreval()
       escreval("Minha Casa Minha Vida")
       escreval()
       escreva("Qual o valor da casa que pretende adquirir? ")
@@ -23,36 +28,36 @@ inicio
                    Vpar <- Vcasa / 120
                    Tsal <- (Vcom * 30) /100
                    se (Vpar <= Tsal) entao
-                      escreval("Emprestimo APROVADO!O senhor pagara 120 parcelas de R$",Vpar:5:2," nos próximos 10 anos!")
+                      escreval("Emprestimo APROVADO! O senhor pagara 120 parcelas de R$",Vpar:5:2," nos próximos 10 anos!")
                    senao
-                        escreval("Emprestimo NEGADO!Valor das parcelas compromete mais de 30% do seu salário")
+                        escreval("Emprestimo NEGADO! Valor das parcelas compromete mais de 30% do seu salário")
                    fimse
                    
               caso 2
                    Vpar <- Vcasa / 240
                    Tsal <- (Vcom * 30) /100
                    se (Vpar <= Tsal) entao
-                      escreval("Emprestimo APROVADO!O senhor pagara 240 parcelas de R$",Vpar:5:2," nos próximos 20 anos!")
+                      escreval("Emprestimo APROVADO! O senhor pagara 240 parcelas de R$",Vpar:5:2," nos próximos 20 anos!")
                    senao
-                        escreval("Emprestimo NEGADO!Valor das parcelas compromete mais de 30% do seu salário")
+                        escreval("Emprestimo NEGADO! Valor das parcelas compromete mais de 30% do seu salário")
                    fimse
                    
               caso 3
                    Vpar <- Vcasa / 360
                    Tsal <- (Vcom * 30) /100
                    se (Vpar <= Tsal) entao
-                      escreval("Emprestimo APROVADO!O senhor pagara 360 parcelas de R$",Vpar:5:2," nos próximos 30 anos!")
+                      escreval("Emprestimo APROVADO! O senhor pagara 360 parcelas de R$",Vpar:5:2," nos próximos 30 anos!")
                    senao
-                        escreval("Emprestimo NEGADO!Valor das parcelas compromete mais de 30% do seu salário")
+                        escreval("Emprestimo NEGADO! Valor das parcelas compromete mais de 30% do seu salário")
                    fimse
                    
               caso 4
                    Vpar <- Vcasa / 420
                    Tsal <- (Vcom * 30) /100
                    se (Vpar <= Tsal) entao
-                      escreval("Emprestimo APROVADO!O senhor pagara 420 parcelas de R$",Vpar:5:2," durante estes 35 anos!")
+                      escreval("Emprestimo APROVADO! O senhor pagara 420 parcelas de R$",Vpar:5:2," durante estes 35 anos!")
                    senao
-                        escreval("Emprestimo NEGADO!Valor das parcelas compromete mais de 30% do seu salário")
+                        escreval("Emprestimo NEGADO! Valor das parcelas compromete mais de 30% do seu salário")
                    fimse
               OutroCaso
                        Escreval("[ERRO] Opção em quantidade de anos incorreta, tente novamente e digite uma válida")
