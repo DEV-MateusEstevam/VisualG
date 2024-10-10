@@ -2,7 +2,6 @@ algoritmo "ex033"
 var
    Vcasa, Vcom, Tsal, Vpar: real
    ano: inteiro
-   
 inicio
       escreval("Minha Casa Minha Vida")
       escreval()
