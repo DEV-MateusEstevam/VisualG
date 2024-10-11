@@ -1,18 +1,22 @@
-algoritmo "Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de um carro custa R$90 por dia para carro popular e R$150 por dia para
-//carro de luxo. Além disso, o cliente paga por Km percorrido. Faça um programa que leia o tipo de carro alugado (popular ou luxo), quantos dias de aluguel e
-//quantos Km foram percorridos. No final mostre o preço a ser pago de acordo com a tabela a seguir:
-//- Carros populares (aluguel de R$90 por dia)
-//- Até 100Km percorridos: R$0,20 por Km
-//- Acima de 100Km percorridos: R$0,10 por Km
-//- Carros de luxo (aluguel de R$150 por dia)
-//- Até 200Km percorridos: R$0,30 por Km
-//- Acima de 200Km percorridos: R$0,25 por Km"
+algoritmo "ex035"
 var
-   carro, pop, luxo, dias,km: inteiro
-   totdias, Vkm, Vtotal: real
-   
+   carro, pop, luxo, dias: inteiro
+   totdias, Vkm, Vtotal, km: real
 inicio
-      escrevaL("ALUGUEL DE CARROS")
+      escreval("Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de")
+      escreval("um carro custa R$90 por dia para carro popular e R$150 por dia para carro de luxo.")
+      escreval("Além disso, o cliente paga por Km percorrido. Faça um programa que leia o tipo de")
+      escreval("carro alugado (popular ou luxo), quantos dias de aluguel e quantos Km foram")
+      escreval("percorridos. No final mostre o preço a ser pago de acordo com a tabela a seguir:")
+      escreval()
+      escreval("- Carros populares (aluguel de R$90 por dia)")
+      escreval("- Até 100Km percorridos: R$0,20 por Km")
+      escreval("- Acima de 100Km percorridos: R$0,10 por Km")
+      escreval("- Carros de luxo (aluguel de R$150 por dia)")
+      escreval("- Até 200Km percorridos: R$0,30 por Km")
+      escreval("- Acima de 200Km percorridos: R$0,25 por Km")
+      escreval()
+      escreval("ALUGUEL DE CARROS")
       escreval("------------------------------------------------")
       escreval("A diária do Carro Popular custa R$90.00")
       escreval("Digite (1) se deseja escolher este tipo de carro")
@@ -43,7 +47,7 @@ inicio
                     escreval("Assim o valor total de km/h a pagar é de R$",Vkm:5:2)
                     escreval("------------------------------------------------")
                     Vtotal <- totdias + Vkm
-                    escreval("O total a pagar somando dias aluagdos + km/h percorridos é de R$",Vtotal:5:2)
+                    escreval("O total a pagar somando dias alugados + km/h percorridos é de R$",Vtotal:5:2)
                  senao
                       Vkm <- km * 0.10
                       escreval("O total de km/h percorrido foi de",km,"km/h.")
@@ -83,7 +87,5 @@ inicio
            senao
                 escreva("[ERRO]Tipo de carro não identicado ou opção não existente!")
            fimse
-
       fimse
-      
 fimalgoritmo
