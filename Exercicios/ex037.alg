@@ -5,8 +5,8 @@ var
    ano, sal, Nsal: real
 inicio
       escreval("37) Uma empresa precisa reajustar o salário dos seus funcionários, dando um")
-      escreval("aumento de acordo com alguns fatores.Faça um programa que leia o salário atual, o")
-      escreval("gênero do funcionário e há quantos anos esse funcionário trabalha na empresa.No")
+      escreval("aumento de acordo com alguns fatores.Faça um programa que leia o salário atual,")
+      escreval("o gênero do funcionário e há quantos anos esse funcionário trabalha na empresa.No")
       escreval("final, mostre o seu novo salário, baseado na tabela a seguir:")
       escreval()
       escreval("Mulheres:")
@@ -24,13 +24,13 @@ inicio
       escreva("Nome do funcionário: ")
       leia(nome)
       escreval()
-      escreva("Gênero do funcionário [1] para Masculino [2] para Feminino: ")
+      escreva("Gênero do(a) ",nome," [1] para Masculino [2] para Feminino: ")
       leia(genero)
       escreval()
-      escreva("Quantidade de anos que o funcionário esta na empresa:(ano,meses) ")
+      escreva("Quantidade de anos que o(a) ",nome," esta na empresa:(ano,meses) ")
       leia(ano)
       escreval()
-      escreva("Valor do salario atual do funcionário: ")
+      escreva("Valor do salario atual do(a) ",nome,": ")
       leia(sal)
       escreval
       escolha genero
