@@ -1,26 +1,38 @@
-algoritmo " Uma empresa precisa reajustar o salário dos seus funcionários, dando um aumento de acordo com alguns fatores.
-//Faça um programa que leia o salário atual, o gênero do funcionário e há quantos anos esse funcionário trabalha na empresa.
-//No final, mostre o seu novo salário, baseado na tabela a seguir:
-//- Mulheres   - menos de 15 anos de empresa: +5% - de 15 até 20 anos de empresa: +12% - mais de 20 anos de empresa: +23%
-//Homens   - menos de 20 anos de empresa: +3%   - de 20 até 30 anos de empresa: +13%   - mais de 30 anos de empresa: +25%"
-// Função :
-// Autor :
-// Data : 26/06/2022
-// Seção de Declarações 
+algoritmo "ex037"
 var
    nome: caractere
    genero: inteiro
    ano, sal, Nsal: real
 inicio
+      escreval("37) Uma empresa precisa reajustar o salário dos seus funcionários, dando um")
+      escreval("aumento de acordo com alguns fatores.Faça um programa que leia o salário atual, o")
+      escreval("gênero do funcionário e há quantos anos esse funcionário trabalha na empresa.No")
+      escreval("final, mostre o seu novo salário, baseado na tabela a seguir:")
+      escreval()
+      escreval("Mulheres:")
+      escreval("- menos de 15 anos de empresa: +5%")
+      escreval("- de 15 até 20 anos de empresa: +12%")
+      escreval("- mais de 20 anos de empresa: +23%")
+      escreval()
+      escreval("Homens:")
+      escreval("- menos de 20 anos de empresa: +3%")
+      escreval("- de 20 até 30 anos de empresa: +13%")
+      escreval("- mais de 30 anos de empresa: +25%")
+      escreval()
       escreval("Programa de Reajuste de Salário")
+      escreval()
       escreva("Nome do funcionário: ")
       leia(nome)
-      escreva("gênero do funcionário [1] para Masculino [2] para Feminino: ")
+      escreval()
+      escreva("Gênero do funcionário [1] para Masculino [2] para Feminino: ")
       leia(genero)
+      escreval()
       escreva("Quantidade de anos que o funcionário esta na empresa:(ano,meses) ")
       leia(ano)
-      escreva("valor do salario atual do funcionário: ")
+      escreval()
+      escreva("Valor do salario atual do funcionário: ")
       leia(sal)
+      escreval
       escolha genero
               caso 1
                    se (ano < 20) entao
