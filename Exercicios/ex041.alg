@@ -11,4 +11,5 @@ inicio
       fimenquanto
       escreva("Acabou!")
       escreval()
+      escreval()
 fimalgoritmo
