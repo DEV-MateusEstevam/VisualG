@@ -2,7 +2,7 @@ algoritmo "ex044"
 var
  contador,n1,n2,inc: inteiro
 inicio
-      escreval("Crie um algoritmo que leia o valor inicial da contagem, o valor final e o ")
+      escreval("44) Crie um algoritmo que leia o valor inicial da contagem, o valor final e o ")
       escreval("incremento, mostrando em seguida todos os valores no intervalo:")
       escreval()
       escreva("Digite o valor inicial da contagem: ")
