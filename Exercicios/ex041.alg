@@ -9,6 +9,5 @@ inicio
                escreval(contador," ")
                contador <- contador - 5
       fimenquanto
-      escreva("Acabou!")
-      escreval()
+      escreval("Acabou!")
 fimalgoritmo
