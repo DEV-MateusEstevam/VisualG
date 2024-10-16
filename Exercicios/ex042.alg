@@ -7,11 +7,11 @@ inicio
       escreval()
       escreva("Digite um número que defina o fim do contador: ")
       leia(n)
+      escreval()
       contador <- 1
       enquanto (contador <= n) faca
                escreval(contador," ")
                contador <- contador + 1
       fimenquanto
-      escreva("Acabou!")
-      escreval()
+      escreval("Acabou!")
 fimalgoritmo
