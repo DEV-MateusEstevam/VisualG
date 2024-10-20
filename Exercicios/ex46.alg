@@ -1,11 +1,10 @@
 algoritmo " Crie um programa que calcule e mostre na tela o resultado da soma entre 6 + 8 + 10 + 12 + 14 + ... + 98 + 100. "
-// Função :
-// Autor :
-// Data : 27/06/2022
-// Seção de Declarações
 var
    contador, soma: inteiro
 inicio
+      escreval("46) Crie um programa que calcule e mostre na tela o resultado da soma entre 6 +")
+      escreval("8 + 10 + 12 + 14 + ... + 98 + 100.")
+      escreval()
       contador <- 6
       soma <- contador
       enquanto (contador < 100) faca
@@ -18,6 +17,7 @@ inicio
                soma <- contador + soma
       fimenquanto
       escreval(" 100 ")
-      escreva("O resultado total da soma de toda a contagem é ",soma)
+      escreval()
+      escreval("O resultado total da soma de toda a contagem é ",soma)
 fimalgoritmo
 
