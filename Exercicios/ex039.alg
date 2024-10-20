@@ -9,6 +9,5 @@ inicio
                escreva(contagem," ")
                contagem <- contagem - 1
       fimenquanto
-      escreva("Acabou!")
-      escreval()
+      escreval("Acabou!")
 fimalgoritmo
