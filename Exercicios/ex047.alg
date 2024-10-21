@@ -1,11 +1,10 @@
-algoritmo " Desenvolva um aplicativo que mostre na tela o resultado da expressão 500 + 450 + 400 + 350 + 300 + ... + 50 + 0 "
-// Função :
-// Autor :
-// Data : 27/06/2022
-// Seção de Declarações
+algoritmo "ex047"
 var
    contador, soma: inteiro
 inicio
+      escreval("47) Desenvolva um aplicativo que mostre na tela o resultado da expressão 500 + 450")
+      escreval("+ 400 + 350 + 300 + ... + 50 + 0")
+      escreval()
       contador <- 500
       soma <- contador
       enquanto (contador > 0) faca
@@ -18,6 +17,7 @@ inicio
                soma <- contador + soma
       fimenquanto
       escreval(" 0 ")
-      escreva("O resultado total da soma de toda a contagem é ",soma)
+      escreval()
+      escreval("O resultado total da soma de toda a contagem é ",soma)
 fimalgoritmo
 
