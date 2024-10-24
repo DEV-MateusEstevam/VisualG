@@ -4,10 +4,10 @@ var
    media: real
 inicio
       escreval("Crie um algoritmo que leia a idade de 10 pessoas, mostrando no final:")
-      escreval("a) Qual é a média de idade do grupo")
-      escreval("b) Quantas pessoas tem mais de 18 anos")
-      escreval("c) Quantas pessoas tem menos de 5 anos")
-      escreval("d) Qual foi a maior idade lida")
+      escreval("a) Qual é a média de idade do grupo?")
+      escreval("b) Quantas pessoas tem mais de 18 anos?")
+      escreval("c) Quantas pessoas tem menos de 5 anos?")
+      escreval("d) Qual foi a maior idade lida?")
       escreval()
       somador <- 0
       dezoito <- 0
