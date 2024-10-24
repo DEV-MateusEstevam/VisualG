@@ -4,9 +4,10 @@ var
    media: real
 inicio
       escreval("Crie um algoritmo que leia a idade de 10 pessoas, mostrando no final:")
-      escreval("a) Qual é a média de idade do grupo")
+      escreval("a) Qual Ã© a mÃ©dia de idade do grupo")
       escreval("b) Quantas pessoas tem mais de 18 anos")
-      escreval("c) Quantas pessoas tem menos de 5 anos  d) Qual foi a maior idade lida")
+      escreval("c) Quantas pessoas tem menos de 5 anos")
+      escreval("d) Qual foi a maior idade lida")
       escreval()
       somador <- 0
       dezoito <- 0
@@ -14,7 +15,7 @@ inicio
       maior <- 0
       cont <- 1
       enquanto (cont <= 10) faca
-               escreva("Qual é idade da",cont,"° pessoa: ")
+               escreva("Qual Ã© idade da",cont,"Â° pessoa: ")
                leia(idade)
                somador <- somador + idade
                media <- somador / 10
@@ -33,7 +34,7 @@ inicio
                cont <- cont + 1
       fimenquanto
       escreval()
-      escreval("A média de idade das pessoas participantes é de", media)
+      escreval("A mÃ©dia de idade das pessoas participantes Ã© de", media)
       escreval("Existem",dezoito," pessoas maiores de 18 anos.")
       escreval("Existem",cinco," pessoas menores de 5 anos.")
       escreval("O participante com a maior idade tem",maior," anos.")
