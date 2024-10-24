@@ -1,14 +1,15 @@
-algoritmo "Desenvolva um aplicativo que leia o peso e a altura de 7 pessoas, mostrando no final:  a) Qual foi a média de altura do grupo
-//b) Quantas pessoas pesam mais de 90Kg  c) Quantas pessoas que pesam menos de 50Kg tem menos de 1.60m
-//d) Quantas pessoas que medem mais de 1.90m pesam mais de 100Kg."
-// Função :
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
+algoritmo "ex054"
 var
    contador, noventa, menos, mais: inteiro
    Asoma, altura, peso, Amedia: real
 inicio
+      escreval("54) Desenvolva um aplicativo que leia o peso e a altura de 7 pessoas, mostrando no")
+      escreval("final:")
+      escreval("a) Qual foi a média de altura do grupo?")
+      escreval("b) Quantas pessoas pesam mais de 90Kg?")
+      escreval("c) Quantas pessoas que pesam menos de 50Kg tem menos de 1.60m?")
+      escreval("d) Quantas pessoas que medem mais de 1.90m pesam mais de 100Kg?")
+      escreval()
       contador <- 1
       Asoma <- 0
       noventa <- 0
@@ -19,7 +20,7 @@ inicio
                leia(altura)
                escreva("Qual o peso da",contador,"° pessoa? (quilos,gramas) ")
                leia(peso)
-               escreval("----------------------------------------------------------")
+               escreval()
                
                Asoma <- Asoma + altura
                Amedia <- Asoma / 4
@@ -38,8 +39,9 @@ inicio
                
                contador <- contador + 1
       fimenquanto
+      escreva()
       escreval("A média de altura de todo o grupo é de ",Amedia:5:2)
       escreval("São exatamente",noventa," pessoas que pesam mais de 90kg.")
       escreval("São exatamente",menos," pessoas que pesam menos de 50Kg tem menos de 1.60m.")
-      escreval("São exatamente",mais," pessoas que medem mais de 1.90m pesam mais de 100Kg")
+      escreval("São exatamente",mais," pessoas que medem mais de 1.90m pesam mais de 100Kg.")
 fimalgoritmo
