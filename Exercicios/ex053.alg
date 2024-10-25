@@ -4,11 +4,11 @@ var
    sexo: caractere
    media, mediaH: real
 inicio
-      escreval("Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final:")
+      escreval("53) FaÃ§a um programa que leia a idade e o sexo de 5 pessoas, mostrando no final:")
       escreval("a) Quantos homens foram cadastrados?")
       escreval("b) Quantas mulheres foram cadastradas?")
-      escreval("c) A média de idade do grupo?")
-      escreval("d) A média de idade dos homens?")
+      escreval("c) A mÃ©dia de idade do grupo?")
+      escreval("d) A mÃ©dia de idade dos homens?")
       escreval("e) Quantas mulheres tem mais de 20 anos?")
       escreval()
        contador <- 1
@@ -46,6 +46,6 @@ inicio
        escreval("---------------------------------------------------------------------------")
        escreva("Foram cadastradas",mulher," mulheres ")
        escreval("e apenas",vinte," tem mais de 20 anos de idade.")
-       escreval("A média da idade do grupo é de ",media:5:2," anos")
-       escreval("A média de idade dos",homem," homens participantes é de ",mediaH:5:2," anos.")
+       escreval("A mÃ©dia da idade do grupo Ã© de ",media:5:2," anos")
+       escreval("A mÃ©dia de idade dos",homem," homens participantes Ã© de ",mediaH:5:2," anos.")
 fimalgoritmo
