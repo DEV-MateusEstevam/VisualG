@@ -1,11 +1,10 @@
-algoritmo "Crie um programa que leia 6 números inteiros e no final mostre quantos deles são pares e quantos são ímpares. "
-// Função :
-// Autor :
-// Data : 27/06/2022
-// Seção de Declarações 
+algoritmo "ex049"
 var
    contador, n, par, impar: inteiro
 inicio
+      escreval("Crie um programa que leia 6 números inteiros e no final mostre quantos deles são")
+      escreval("pares e quantos são ímpares.")
+      escreval()
       contador <- 1
       par <- 0
       impar <- 0
@@ -19,8 +18,8 @@ inicio
                fimse
                contador <- contador + 1
       fimenquanto
-
-      escreva("Números pares: ",par," números ímpares: ",impar)
+      escreval()
+      escreval("Números pares: ",par," | Números ímpares: ",impar)
 fimalgoritmo
 
 
