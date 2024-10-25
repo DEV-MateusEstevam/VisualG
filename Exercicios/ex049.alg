@@ -2,8 +2,8 @@ algoritmo "ex049"
 var
    contador, n, par, impar: inteiro
 inicio
-      escreval("Crie um programa que leia 6 números inteiros e no final mostre quantos deles são")
-      escreval("pares e quantos são ímpares.")
+      escreval("49) Crie um programa que leia 6 números inteiros e no final mostre quantos deles")
+      escreval("são pares e quantos são ímpares.")
       escreval()
       contador <- 1
       par <- 0
