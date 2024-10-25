@@ -1,12 +1,11 @@
-algoritmo "Vamos melhorar o jogo que fizemos no exercício 32.
-// A partir de agora, o computador vai sortear um número entre 1 e 10 e o jogador vai ter 4 tentativas para tentar acertar"
-// Função :
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações
+algoritmo "ex055"
 var
    contador, tentativas, n: inteiro
 inicio
+      escreval("55) Vamos melhorar o jogo que fizemos no exercício 32.A partir de agora, o")
+      escreval("computador vai sortear um número entre 1 e 10 e o jogador vai ter 4 tentativas")
+      escreval("para tentar acertar.")
+      escreval()
       n <- int(rand * 11)
       tentativas <- -1 //se X for 0 e N for 0 o usuário pode acertar, por isso -1
       contador <- 1
@@ -18,11 +17,14 @@ inicio
       
       se (tentativas = n) entao
          escrevaL("Parabéns você acertou!!!")
+         escreval()
       senao
            se (tentativas > n) entao
               escreval("O número é menor")
+              escreval()
            senao
                 escreval("O número é maior")
+                escreval()
            fimse
       fimse
       
