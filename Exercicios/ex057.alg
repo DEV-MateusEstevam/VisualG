@@ -1,13 +1,13 @@
-algoritmo "Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final, mostre o total de salários pagos aos homens e o total pago às
-//mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um funcionário."
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "ex057"
 var
    resp, sexo: caractere
    sal, SomaH, SomaF: real
 inicio
+      escreval("Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No")
+      escreval("final, mostre o total de salários pagos aos homens e o total pago às mulheres. O")
+      escreval("programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os")
+      escreval("dados de um funcionário.")
+      escreval()
       resp <- "S"
       SomaH <- 0
       SomaF <- 0
@@ -19,7 +19,7 @@ inicio
             escreva("Deseja continuar? [S/N] ")
             leia(resp)
             escreval("--------------------------------------------------------------")
-            
+            escreval()
             se (sexo = "M") entao
                SomaH <- SomaH + sal
             senao
