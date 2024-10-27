@@ -1,15 +1,16 @@
-algoritmo "Crie um programa que leia o sexo e a idade de várias pessoas. O programa vai perguntar se o usuário quer continuar ou não a cada pessoa.
-//No final, mostre: a) qual é a maior idade lida b) quantos homens foram cadastrados c) qual é a idade da mulher mais jovem
-//d) qual é a média de idade entre os homens"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "ex059"
 var
    resp, sexo: caractere
    idade, maior, homem, menor, contador, soma: inteiro
    media: real
 inicio
+      escreval("59) Crie um programa que leia o sexo e a idade de várias pessoas. O programa vai")
+      escreval("perguntar se o usuário quer continuar ou não a cada pessoa. No final, mostre:")
+      escreval("a) qual é a maior idade lida?")
+      escreval("b) quantos homens foram cadastrados?")
+      escreval("c) qual é a idade da mulher mais jovem?")
+      escreval("d) qual é a média de idade entre os homens?")
+      escreval()
       resp <- "S"
       homem <- 0
       contador <- 1
@@ -24,7 +25,7 @@ inicio
             fimse
             escreva("Deseja continuar? [S/N] ")
             leia(resp)
-            escreval("-------------------------------------------------------")
+            escreval()
 
             se (idade > maior) entao
                maior <- idade
