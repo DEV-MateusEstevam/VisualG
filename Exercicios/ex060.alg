@@ -1,15 +1,17 @@
-algoritmo "Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O programa vai perguntar se o usuário quer ou não continuar.
-//No final, mostre: a) O nome da pessoa mais velha b) O nome da mulher mais jovem c) A média de idade do grupo d) Quantos homens tem mais de 30 anos
-//e) Quantas mulheres tem menos de 18 anos"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "ex060"
 var
    resp, nome, sexo, Nvelha, Njovem: caractere
    idade, velha, jovem, contador, mulher, soma, homem, dezoito: inteiro
    media: real
 inicio
+      escreval("Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O")
+      escreval("programa vai perguntar se o usuário quer ou não continuar. No final, mostre:")
+      escreval("a) O nome da pessoa mais velha?")
+      escreval("b) O nome da mulher mais jovem?")
+      escreval("c) A média de idade do grupo?")
+      escreval("d) Quantos homens tem mais de 30 anos?")
+      escreval("e) Quantas mulheres tem menos de 18 anos?")
+      escreval()
       resp <- "S"
       velha <- 0
       contador <- 1
@@ -21,7 +23,7 @@ inicio
             leia(nome)
             escreva("Qual a idade da",contador,"° pessoa? ")
             leia(idade)
-            escreva("Qual é o sexo da",contador,"° pessoa?(M para Masculino / F para Feminino) ")
+            escreva("Qual é o sexo da(o) ",nome," ?(M para Masculino / F para Feminino) ")
             leia(sexo)
             
             se (sexo = "F") entao
@@ -34,7 +36,7 @@ inicio
             
             escreva("Deseja continuar? [S/N] ")
             leia(resp)
-            escreval("----------------------------------------------------")
+            escreval()
             
             se (idade > velha) entao
                Nvelha <- nome
