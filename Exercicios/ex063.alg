@@ -1,14 +1,16 @@
-algoritmo "Crie um programa usando a estrutura “faça enquanto” que leia vários números. A cada laço, pergunte se o usuário quer continuar ou não. No final,
-//mostre na tela: a) O somatório entre todos os valores b) Qual foi o menor valor digitado c) A média entre todos os valores d) Quantos valores são pares"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "ex063"
 var
    soma, n, menor, contador, par: inteiro
    media: real
    resp: caractere
 inicio
+      escreval("63) Crie um programa usando a estrutura “faça enquanto” que leia vários números. A")
+      escreval("cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na tela:")
+      escreval("a) O somatório entre todos os valores")
+      escreval("b) Qual foi o menor valor digitado")
+      escreval("c) A média entre todos os valores")
+      escreval("d) Quantos valores são pares")
+      escreval()
       resp <- "S"
       soma <- 0
       contador <- 1
@@ -21,7 +23,7 @@ inicio
             fimse
             escreva("Deseja continuar: [S/N] ")
             leia(resp)
-            escreval("-----------------------")
+            escreval()
             
             soma <- soma + n
             media <- soma / contador
@@ -40,5 +42,4 @@ inicio
       escreval("E a média entre todos os números digitados é de ",media:4:2)
       escreval("O menor número digitado foi",menor)
       escreval("De todo os números digitados",par," são pares.")
-      
 fimalgoritmo
