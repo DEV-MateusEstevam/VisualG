@@ -1,15 +1,14 @@
-algoritmo "Crie um programa que mostre na tela a seguinte contagem, usando a estrutura “faça enquanto” 0 3 6 9 12 15 18 21 24 27 30 Acabou!"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "ex061"
 var
    contador: inteiro
 inicio
+      escreval("61) Crie um programa que mostre na tela a seguinte contagem, usando a estrutura")
+      escreval("“faça enquanto” 0 3 6 9 12 15 18 21 24 27 30 Acabou!")
+      escreval()
       contador <- 0
       repita
           escreva(contador)
           contador <- contador + 3
       ate(contador > 30)
-      escreva(" Acabou!")
+      escreval(" Acabou!")
 fimalgoritmo
