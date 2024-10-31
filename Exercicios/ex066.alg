@@ -1,18 +1,15 @@
-algoritmo "Escreva um programa que leia um número qualquer e mostre a tabuada desse número, usando a estrutura “para”.
-//Ex: Digite um valor: 5
-//5 x 1 = 5
-//5 x 2 = 10
-//5 x 3 = 15 ..."
-// Função :
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
+algoritmo "ex066"
 var
    contador, n: inteiro
    res: real
 inicio
+      escreval("66) Escreva um programa que leia um número qualquer e mostre a tabuada desse")
+      escreval("número, usando a estrutura “para”.")
+      escreval()
       escreva("Digite o número que deseja ver a tabuada: ")
+      escreval()
            leia(n)
+      escreval()
       para contador <- 1 ate 10 faca
            res <- n * contador
            escreval(n," X",contador," =",res)
