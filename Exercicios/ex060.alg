@@ -4,7 +4,7 @@ var
    idade, velha, jovem, contador, mulher, soma, homem, dezoito: inteiro
    media: real
 inicio
-      escreval("Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O")
+      escreval("60) Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O")
       escreval("programa vai perguntar se o usuário quer ou não continuar. No final, mostre:")
       escreval("a) O nome da pessoa mais velha?")
       escreval("b) O nome da mulher mais jovem?")
