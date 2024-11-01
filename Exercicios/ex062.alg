@@ -5,7 +5,7 @@ var
    media: real
    
 inicio
-      escreval("Faça um programa usando a estrutura “faça enquanto” que leia a idade de várias")
+      escreval("62) Faça um programa usando a estrutura “faça enquanto” que leia a idade de várias")
       escreval("pessoas. A cada laço, você deverá perguntar para o usuário se ele quer ou não")
       escreval("continuar a digitar dados. No final, quando o usuário decidir parar, mostre na")
       escreval("tela:")
