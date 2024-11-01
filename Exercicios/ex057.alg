@@ -3,9 +3,9 @@ var
    resp, sexo: caractere
    sal, SomaH, SomaF: real
 inicio
-      escreval("Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No")
-      escreval("final, mostre o total de salários pagos aos homens e o total pago às mulheres. O")
-      escreval("programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os")
+      escreval("57) Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários.")
+      escreval("No final, mostre o total de salários pagos aos homens e o total pago às mulheres.")
+      escreval("O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os")
       escreval("dados de um funcionário.")
       escreval()
       resp <- "S"
