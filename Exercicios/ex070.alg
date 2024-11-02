@@ -1,11 +1,10 @@
-algoritmo "Faça um programa que mostre os 10 primeiros elementos da Sequência de Fibonacci: 1 1 2 3 5 8 13 21... "
-// Função :
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
+algoritmo "ex070"
 var
    proxV, contador, valor1 , valor2: inteiro
 inicio
+      escreval("70) Faça um programa que mostre os 10 primeiros elementos da Sequência de")
+      escreval("Fibonacci:")
+      escreval()
       valor1 <- 1
       valor2 <- 1
       escreva(valor1)
@@ -18,5 +17,6 @@ inicio
            valor1 <- valor2
            valor2 <- proxV
       fimpara
+      escreval()
 
 fimalgoritmo
