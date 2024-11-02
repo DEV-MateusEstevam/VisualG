@@ -1,17 +1,17 @@
-algoritmo "Crie um programa que leia sexo e peso de 8 pessoas, usando a estrutura “para”. No final, mostre na tela:
-//a) Quantas mulheres foram cadastradas
-//b) Quantos homens pesam mais de 100Kg
-//c) A média de peso entre as mulheres
-//d) O maior peso entre os homens"
-// Função :
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
+algoritmo "ex068"
 var
  sexo: caractere
  peso, soma, Media, maiorP: real
  mulher, contador, H100: inteiro
 inicio
+
+      escreval("68) Crie um programa que leia sexo e peso de 8 pessoas, usando a estrutura")
+      escreval("“para”. No final, mostre na tela:")
+      escreval("a) Quantas mulheres foram cadastradas?")
+      escreval("b) Quantos homens pesam mais de 100Kg?")
+      escreval("c) A média de peso entre as mulheres?")
+      escreval("d) O maior peso entre os homens?")
+      escreval()
       mulher <- 0
       H100 <- 0
       soma <- 0
@@ -20,10 +20,10 @@ inicio
       para contador <- 1 ate 8 faca
            escreva("Qual o seu sexo? M para Masculino / F para Feminino ")
            leia(sexo)
-           Escreval("---------------------------------------------------")
+           escreval()
            escreva("Qual o seu peso atual: (kilos,gramas) ")
            leia(peso)
-           Escreval("---------------------------------------------------")
+           escreval()
            
            se (sexo = "F") entao
               mulher <- mulher + 1
@@ -40,6 +40,7 @@ inicio
            fimse
            
       fimpara
+      escreval()
       escreval("O total de Mulheres cadastradas foram de",mulher," mulheres.")
       escreval("O total de homens que pesam mais de 100kg são exatamente",H100," homens.")
       escreval("A média de peso entre as Mulheres é ",Media:5:3," kg.")
