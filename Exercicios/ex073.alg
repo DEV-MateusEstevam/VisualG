@@ -1,10 +1,11 @@
 algoritmo "ex073"
+
 var
    v: vetor[0..9] de inteiro
    c: inteiro
 inicio
-      escreval("73) Crie um programa que preencha automaticamente (usando lógica, não apenas")
-      escreval("atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:")
+      escreval("73) Crie um programa que preencha automaticamente (usando lÃ³gica, nÃ£o apenas")
+      escreval("atribuindo diretamente) um vetor numÃ©rico com 10 posiÃ§Ãµes, conforme abaixo:")
       escreval()
       para c <- 9 ate 0 passo -1 faca
            escreva("[",c,"]")
