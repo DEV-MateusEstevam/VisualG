@@ -1,5 +1,4 @@
 algoritmo "ex073"
-
 var
    v: vetor[0..9] de inteiro
    c: inteiro
