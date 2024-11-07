@@ -1,13 +1,12 @@
-algoritmo "Escreva um programa que leia 15 números e guarde-os em um vetor. No final, mostre o vetor inteiro na tela e em seguida mostre em que posições foram
-//digitados valores que são múltiplos de 10."
-// Função :
-// Autor :
-// Data : 10/07/2022
-// Seção de Declarações 
+algoritmo "ex078"
 var
    v: vetor[1..15]de inteiro
    c,n: inteiro
 inicio
+      escreval("Escreva um programa que leia 15 números e guarde-os em um vetor. No final, mostre")
+      escreval("o vetor inteiro na tela e em seguida mostre em que posições foram digitados")
+      escreval("valores que são múltiplos de 10.")
+      escreval()
       para c <- 1 ate 15 faca
            escreva("Digite o",c,"° número: ")
            leia(n)
