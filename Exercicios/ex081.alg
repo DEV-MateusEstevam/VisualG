@@ -1,14 +1,16 @@
-algoritmo "Crie um programa que leia a idade de 8 pessoas e guarde-as em um vetor. No final, mostre: a) Qual é a média de idade das pessoas cadastradas
-//b) Em quais posições temos pessoas com mais de 25 anos c) Qual foi a maior idade digitada (podem haver repetições) d) Em que posições digitamos a maior idade"
-// Função :
-// Autor :
-// Data : 10/07/2022
-// Seção de Declarações 
+algoritmo "ex081"
 var
    v: vetor[1..8]de inteiro
    c, idade, soma, maior: inteiro
    media: real
 inicio
+      escreval("81) Crie um programa que leia a idade de 8 pessoas e guarde-as em um vetor. No")
+      escreval("final, mostre:")
+      escreval("a) Qual é a média de idade das pessoas cadastradas?")
+      escreval("b) Em quais posições temos pessoas com mais de 25 anos?")
+      escreval("c) Qual foi a maior idade digitada (podem haver repetições)")
+      escreval("d) Em que posições digitamos a maior idade?")
+      escreval()
       soma <- 0
       para c <- 1 ate 8 faca
            escreva("Digite a sua idade atual: ")
