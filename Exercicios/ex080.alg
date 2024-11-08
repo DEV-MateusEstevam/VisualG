@@ -1,13 +1,13 @@
-algoritmo "Faça um algoritmo que preencha um vetor de 30 posições com números entre 1 e 15 sorteados pelo computador. Depois disso, peça para o usuário digitar um
-//número (chave) e seu programa deve mostrar em que posições essa chave foi encontrada. Mostre também quantas vezes a chave foi sorteada."
-// Função :
-// Autor :
-// Data : 10/07/2022
-// Seção de Declarações 
+algoritmo "ex080"
 var
    v: vetor[1..30]de inteiro
    c, n, chave, vezes: inteiro
 inicio
+      escreval("Faça um algoritmo que preencha um vetor de 30 posições com números entre 1 e 15")
+      escreval("sorteados pelo computador. Depois disso, peça para o usuário digitar um número")
+      escreval("(chave) e seu programa deve mostrar em que posições essa chave foi encontrada.")
+      escreval("Mostre também quantas vezes a chave foi sorteada.")
+      escreval()
       vezes <- 0
       escreva("Computador sorteando números!")
       para c <- 1 ate 30 faca
