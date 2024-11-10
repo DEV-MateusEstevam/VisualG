@@ -1,15 +1,4 @@
-algoritmo " Crie um programa que melhore o procedimento Gerador() da questão anterior para que mostre uma mensagem vário
-//Ex: Ao chamar Gerador("Aprendendo Portugol", 4)
-//aparece: +-------=======------+
-         //Aprendendo Portugol
-         //Aprendendo Portugol
-         //Aprendendo Portugol
-         //Aprendendo Portugol
-         //+-------=======------+
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações
+algoritmo "ex088"
 var
    contador: inteiro
 
@@ -17,8 +6,11 @@ procedimento Gerador(texto: caractere)
 var
 inicio
       escreval("+-------=======------+")
-      escreval(texto)
+      para contador <- 1 ate 4 faca
+        escreval("     ",texto)
+      fimpara
       escreval("+-------=======------+")
+      escreval()
 fimprocedimento
 
 procedimento Gerador1 (texto1: caractere)
@@ -29,12 +21,15 @@ inicio
    para contador <- 1 ate 4 faca
         escreval(texto1)
    fimpara
-          escreval("+-------=======------+")
+   escreval("+-------=======------+")
 fimProcedimento
 
 inicio
-      Gerador(" Olá Mundo! ")
-      limpatela
-      Gerador1("Aprendendo Portugol")
 
+      escreval("88) Crie um programa que melhore o procedimento Gerador() da questão anterior para")
+      escreval("que mostre uma mensagem. Ex: Ao chamar Gerador('Aprendendo Portugol', 4) aparece:")
+      escreval()
+      Gerador(" Olá Mundo! ")
+      //limpatela
+      Gerador1("Aprendendo Portugol")
 fimAlgoritmo
