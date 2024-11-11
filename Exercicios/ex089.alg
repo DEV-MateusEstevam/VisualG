@@ -1,21 +1,9 @@
-algoritmo " Crie um programa que melhore o procedimento Gerador() da questão anterior para que o programador possa escolher uma entre três bordas:                             +-------=======------+ Borda 1                            ~~~~~~~~:::::::~~~~~~~ Borda 2                            <<<<<<<<------->>>>>>> Borda 3
-//Ex: Uma chamada válida seria Gerador("Portugol Studio", 3, 2)
-//~~~~~~~~:::::::~~~~~~~
-//Portugol Studio
-//Portugol Studio
-//Portugol Studio
-//~~~~~~~~:::::::~~~~~~~
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações
+algoritmo "ex089"
 var
    contador, borda: inteiro
-
 procedimento Gerador (texto: caractere)
 var
 inicio
-
       escreval(" +-------=======------+ Borda 1")
       escreval(" ~~~~~~~~:::::::~~~~~~~ Borda 2")
       escreval(" <<<<<<<<------->>>>>>> Borda 3")
@@ -130,11 +118,17 @@ fimProcedimento
 
 
 inicio
+      escreval("89) Crie um programa que melhore o procedimento Gerador() da questão anterior para")
+      escreval("que o programador possa escolher uma entre três bordas:")
+      escreval("+-------=======------+ Borda 1")
+      escreval("~~~~~~~~:::::::~~~~~~~ Borda 2")
+      escreval("<<<<<<<<------->>>>>>> Borda 3")
+      escreval("Ex: Uma chamada válida seria Gerador('Portugol Studio', 3, 2)")
+      escreval()
       Gerador("    Portugol Studio   ")
       escreval("                     ")
       Gerador1("     Olá Mundo!      ")
       escreval("                     ")
       Gerador2(" Aprendendo Portugol ")
       escreval("                     ")
-
 fimAlgoritmo
