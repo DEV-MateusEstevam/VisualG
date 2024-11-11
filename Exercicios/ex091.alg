@@ -1,9 +1,4 @@
-algoritmo "Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses valores para um procedimento Maior() que vai verificar qual deles é o maior e
-//mostrá-lo na tela. Caso os dois valores sejam iguais, mostrar uma mensagem informando essa característica."
-// Função :
-// Autor :
-// Data : 04/07/2022
-// Seção de Declarações 
+algoritmo "ex091"
 var
    n1, n2: inteiro
 procedimento Maior(a, b: inteiro)
@@ -18,14 +13,24 @@ inicio
                 escreval("[ERRO] 0s números",a," e ",b," são iguais!")
            fimse
       fimse
+      escreval
 fimprocedimento
+
 inicio
+      escreval("91) Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses")
+      escreval("valores para um procedimento Maior() que vai verificar qual deles é o maior e")
+      escreval("mostrá-lo na tela. Caso os dois valores sejam iguais, mostrar uma mensagem")
+      escreval("informando essa característica.")
+      escreval()
       escreval("Saiba qual é o maior valor!")
+      escreval()
       escreva("Digite um número: ")
       leia(n1)
       escreva("Digite outro número: ")
       leia(n2)
+      escreval()
       Maior(n1, n2)
       escreval("1° valor digitado = ",n1)
       escreval("2° valor digitado = ",n2)
+      escreval()
 fimalgoritmo
