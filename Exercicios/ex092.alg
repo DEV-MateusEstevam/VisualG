@@ -1,9 +1,4 @@
-algoritmo "Crie uma lógica que leia um número inteiro e passe para um procedimento ParOuImpar() que vai verificar e mostrar na tela se o valor passado como
-//parâmetro é PAR ou ÍMPAR."
-// Função :
-// Autor :
-// Data : 04/07/2022
-// Seção de Declarações 
+algoritmo "ex092"
 var
    n: inteiro
 procedimento ParouImpar(a: inteiro)
@@ -17,8 +12,13 @@ inicio
 fimprocedimento
 
 inicio
+      escreval("92) Crie uma lógica que leia um número inteiro e passe para um procedimento")
+      escreval("ParOuImpar() que vai verificar e mostrar na tela se o valor passado como")
+      escreval("parâmetro é PAR ou ÍMPAR.")
+      escreval()
       escreval("Descubra se o valor é PAR ou IMPAR!")
       escreva("Digite um número: ")
       leia(n)
+      escreval()
       ParouImpar(n)
 fimalgoritmo
