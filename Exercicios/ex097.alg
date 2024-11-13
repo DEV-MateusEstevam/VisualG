@@ -1,9 +1,4 @@
-algoritmo "Refaça o exercício 91, só que agora em forma de função Maior(), mas faça uma adaptação que vai receber TRÊS números como parâmetro e vai retornar
-//qual foi o maior entre eles. "
-// Função :
-// Autor :
-// Data : 08/07/2022
-// Seção de Declarações 
+algoritmo "ex97"
 var
    n1, n2, n3,m: inteiro
 funcao Maior (var a, b, c: inteiro): inteiro
@@ -26,12 +21,17 @@ inicio
       fimse
 fimfuncao
 inicio
+      escreval("97) Refaça o exercício 91, só que agora em forma de função Maior(), mas faça uma")
+      escreval("adaptação que vai receber TRÊS números como parâmetro e vai retornar qual foi o")
+      escreval("maior entre eles.")
+      escreval()
       escreva("Digite o 1° valor: ")
       leia(n1)
       escreva("Digite o 2° valor: ")
       leia(n2)
       escreva("Por fim digite o 3° valor: ")
       leia(n3)
+      escreval()
       m <- Maior(n1, n2, n3)
       se (m = 0) entao
          Escreval("[ERRO] 0s números",n1,",",n2," e ",n3," são iguais!")
