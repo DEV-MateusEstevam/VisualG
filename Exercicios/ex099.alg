@@ -1,9 +1,4 @@
-algoritmo "Faça um programa que possua uma função chamada Potencia(), que vai receber dois parâmetros numéricos (base e expoente) e vai calcular o resultado da
-//exponenciação. Ex: Potencia(5,2) vai calcular 5² = 25"
-// Função :
-// Autor :
-// Data : 09/07/2022
-// Seção de Declarações 
+algoritmo "ex099"
 var
    n1, n2, R: inteiro
 funcao Potencia(a, b:inteiro):inteiro
@@ -22,10 +17,16 @@ inicio
 fimfuncao
 
 inicio
+      escreval("99) Faça um programa que possua uma função chamada Potencia(), que vai receber")
+      escreval("dois parâmetros numéricos (base e expoente) e vai calcular o resultado da")
+      escreval("exponenciação. Ex: Potencia(5,2) vai calcular 5² = 25")
+      escreval()
       escreva("Digite o valor da base da Potência: ")
       leia(n1)
+      escreval()
       escreva("Digite o valor do expoente da Potência: ")
       leia(n2)
+      escreval()
       R <- Potencia(n1, n2)
       escreval(n1," elevado a",n2," é igual a",R)
 fimalgoritmo
