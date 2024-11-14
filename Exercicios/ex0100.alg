@@ -1,14 +1,7 @@
-algoritmo " Melhore o exercício 96, criando além da função Media() uma outra função chamada Situacao(), que vai retornar para o programa principal se o aluno está
-//APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como parâmetro o resultado retornado pela função Media()."
-// Função :
-// Autor :
-// Data : 09/07/2022
-// Seção de Declarações 
+algoritmo "ex100"
 var
    n1, n2, m: real
    R: caractere
-
-   
 funcao Media(a, b:real):real
 var
 inicio
@@ -32,16 +25,21 @@ inicio
 fimfuncao
 
 inicio
+      escreval("100) Melhore o exercício 96, criando além da função Media() uma outra função")
+      escreval("chamada Situacao(), que vai retornar para o programa principal se o aluno está")
+      escreval("APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como")
+      escreval("APROVADO, em RECUPERAÇÃO ou REPROVADO.")
+      escreval()
       escreva("Digite o valor da 1° nota: ")
       leia(n1)
+      escreval()
       escreva("Digite o valor da 2° nota: ")
       leia(n2)
+      escreval()
       m <- Media(n1, n2)
       escrevaL("Com as notas",n1," e",n2," sua média é de",m)
 
       R <- Situacao(m)
 
-      escreval("Com a média",m," você está",R)
-      
-      
+      escreval("Com a média",m," sua situação é: ",R)
 fimalgoritmo
