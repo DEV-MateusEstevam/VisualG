@@ -15,7 +15,6 @@ inicio
       fimpara
       retorne p
 fimfuncao
-
 inicio
       escreval("99) Faça um programa que possua uma função chamada Potencia(), que vai receber")
       escreval("dois parâmetros numéricos (base e expoente) e vai calcular o resultado da")
