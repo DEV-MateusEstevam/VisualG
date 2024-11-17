@@ -1,24 +1,22 @@
-algoritmo "ValoresPares"
-// Função :
-// Autor :
-// Data : 18/06/2021
-// Seção de Declarações 
+algoritmo "desafio003"
 var
     val: vetor[1..7] de inteiro
     i, totPar: inteiro
 inicio
-/      totPar <- 0
+       escreval("Valores Pares usando Vetor")
+       escreval()
+       totPar <- 0
        para i <- 1 ate 7 faca
-            escreva(" Digite o ", i, "o. valor: ")
+            escreva("Digite o ", i, "° valor: ")
             leia(val[i])
        FimPara
-
+       escreval()
        para i <- 1 ate 7 faca
             Se (val[i] % 2 = 0) entao
                 totPar <- totPar + 1
-               escreval(" Valor PAR na posição ", i)
+               escreval("Valor PAR na ",i ,"° posição")
             FimSe
        FimPara
-       escreval(" O total de pares foi ", totPar)
-       
+       escreval()
+       escreval("O total de pares foi ", totPar)
 fimalgoritmo
