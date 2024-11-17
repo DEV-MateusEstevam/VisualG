@@ -9,7 +9,6 @@ inicio
       Senao
            retorne "IMPAR"
       FimSe
-
 FimFuncao
 inicio
       escreval("2) Par ou Impar.")
@@ -18,5 +17,5 @@ inicio
       leia(N)
       R <- ParOuImpar(N)
       escreval()
-      escreval("O numero ", N, " é um valor ", R)
+      escreval("O numero ", N, " Ã© um valor ", R)
 fimalgoritmo
