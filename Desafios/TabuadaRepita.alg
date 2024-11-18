@@ -1,14 +1,13 @@
-algoritmo "Contador"
-// Função :
-// Autor :
-// Data : 28/06/2022
-// Seção de Declarações 
+algoritmo "desafio005"
 var
    contador, n,res: inteiro
 inicio
+      escreval("Tabuada")
+      escreval()
       contador <- 1
-      Escreva("Quer ver da Tabuada de qual número? ")
+      Escreva("Quer ver a Tabuada de qual número? ")
       leia(n)
+      escreval()
       repita
       res <- n * contador
             escreval(n," X ",contador," = ",res)
