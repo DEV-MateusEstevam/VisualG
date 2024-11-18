@@ -1,14 +1,13 @@
-algoritmo "ContaAte10"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio004"
 var
       cont, N, R:inteiro
 inicio
+      escreval("Tabuada")
+      escreval()
        cont <- 1
-       Escreva(" Quer ver a tabuada de qual numero? ")
+       Escreva("Quer ver a tabuada de qual numero? ")
        leia(N)
+       escreval()
        repita
              R <- N * cont
              Escreval(N, " X ", cont, " = ", R)
