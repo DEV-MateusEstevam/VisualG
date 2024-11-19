@@ -1,4 +1,4 @@
-algoritmo "testeEscopo"
+algoritmo "desafio006"
 var
    n1, n2: inteiro//n1,n2 variaveis Globais
 procedimento rotina(a, b: inteiro)
