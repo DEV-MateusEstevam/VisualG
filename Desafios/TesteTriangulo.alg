@@ -1,9 +1,9 @@
-algoritmo "triangulos"
+algoritmo "desafio007"
 var
 L1, L2, L3: real
 EQ, ES, IS1, IS2, IS3, TRI: logico
 inicio
-      escreval("Teste Tri‚ngulo:")
+      escreval("Teste Tri√¢ngulo:")
       escreval("Equilatero= 3 lados iguais")
       escreval("Escaleno =3 lados diferentes")
       escreval("Isoceles= 2 lados iguais e 1 diferente")
@@ -21,15 +21,15 @@ inicio
       IS1 <- (L1 = L2) e (L2<>L3) e (L1<>L3)
       IS2 <- (L3 = L1) e (L2<>L1) e (L3<>L2)
       IS3 <- (L2 = L3) e (L1<>L2) e (L1<>L3)
-      escreval("Pode formar um tri‚ngulo? ", TRI)
+      escreval("Pode formar um tri√¢ngulo? ", TRI)
       escreval()
-      escreval("O tri‚ngulo È EQUILATERO? ", EQ)
+      escreval("O tri√¢ngulo √© EQUILATERO? ", EQ)
       escreval()
-      escreval("O tri‚ngulo È ESCALENO? ", ES)
+      escreval("O tri√¢ngulo √© ESCALENO? ", ES)
       escreval()
-      escreval("O tri‚ngulo È IS”CELES?(primeiro e segundo lados iguais) ", IS1)
+      escreval("O tri√¢ngulo √© IS√ìCELES?(primeiro e segundo lados iguais) ", IS1)
       escreval()
-      escreval("O tri‚ngulo È IS”CELES?(primeiro e terceiro lados iguais) ", IS2)
+      escreval("O tri√¢ngulo √© IS√ìCELES?(primeiro e terceiro lados iguais) ", IS2)
       escreval()
-      escreval("O tri‚ngulo È IS”CELES?(segundo e terceiro lados iguais) ", IS3)
+      escreval("O tri√¢ngulo √© IS√ìCELES?(segundo e terceiro lados iguais) ", IS3)
 fimalgoritmo
