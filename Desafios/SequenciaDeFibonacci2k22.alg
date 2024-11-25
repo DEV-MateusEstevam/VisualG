@@ -1,11 +1,9 @@
-algoritmo "Sequencia de Fibonacci"
-
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
+algoritmo "desafio017"
 var
    valor1, valor2, proxV: inteiro
 inicio
+      escreval("Sequencia de Fibonacci")
+      escreval()
       valor1 <- 0
       valor2 <- 1
       proxV <- 0
