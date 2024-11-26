@@ -1,4 +1,4 @@
-algoritmo "SÛComC"
+algoritmo "desafio019"
 var
   nome: caractere
   soc: vetor[1..10] de caractere
