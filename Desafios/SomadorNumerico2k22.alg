@@ -1,11 +1,9 @@
-algoritmo "leia 10 numeros e some"
-// Função :
-// Autor :
-// Data : 27/06/2022
-// Seção de Declarações 
+algoritmo "desafio021"
 var
    contador, n, s, maior: inteiro
 inicio
+      escreval("Somador Numérico:")
+      escreval()
       contador <- 1
       s <- 0
       enquanto (contador <= 5) faca
@@ -22,7 +20,7 @@ inicio
                s <- s + n
                contador <- contador + 1
       fimenquanto
+      escreval()
       escreval("A soma de todos os valores é",s)
       escreval("E o maior valor digitadom foi", maior)
-
 fimalgoritmo
