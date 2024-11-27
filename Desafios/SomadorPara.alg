@@ -1,16 +1,15 @@
-algoritmo "somador"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio022"
 var
      N, C, S: inteiro
 inicio
+      escreval("Somador usando função PARA:")
+      escreval()
        S <- 0
        para C <- 1 ate 5 faca
-                escreval("Digite um valor: ")
+                escreva("Digite um valor: ")
                 leia(N)
+                escreval()
                 S <- S + N
        FimPara
-       Escreval(" A soma dos valores é ", S)
+       Escreval("A soma dos valores é ",S)
 fimalgoritmo
