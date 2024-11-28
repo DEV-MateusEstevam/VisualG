@@ -1,12 +1,10 @@
-algoritmo "SuperContador"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio025"
 var
    op, cont: inteiro
 inicio
+      escreval("Super Contado")
       Repita
+            escreval()
             escreval("=================")
             escreval("|      MENU     |")
             escreval("=================")
