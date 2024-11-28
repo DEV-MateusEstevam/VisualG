@@ -1,12 +1,10 @@
-algoritmo "Super Contador"
-// Função :
-// Autor :
-// Data : 28/06/2022
-// Seção de Declarações 
+algoritmo "desafio027"
 var
  contador, resp: inteiro
 inicio
+      escreval("Super Contador:")
       repita
+            escreval()
             escreval("--------------------------------")
             escreval(" M E N U ")
             escreval("--------------------------------")
