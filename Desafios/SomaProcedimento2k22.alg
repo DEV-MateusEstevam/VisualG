@@ -1,4 +1,4 @@
-algoritmo "FazsomaProcedimento"
+algoritmo "desafio030"
 var
    X, Y: inteiro
 Procedimento soma(A, B:inteiro)
