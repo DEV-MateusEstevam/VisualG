@@ -1,8 +1,4 @@
-algoritmo "SomaParametrosREFERENCIA"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "desafio032"
 var
    x, y: inteiro
 procedimento soma(var a, b: inteiro)//passagem de parameros por REFERENCIA(O parametro tem uma referencia automatica ao valor da variavel original,
@@ -16,6 +12,8 @@ inicio
              escreval("A soma de A + B é igual a", a + b)
 fimprocedimento
 inicio
+      escreval("Somando Parametros por Referencia:")
+      escreval()
       x <- 4
       y <- 8
       soma(x, y)
