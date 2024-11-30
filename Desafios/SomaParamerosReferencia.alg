@@ -1,8 +1,4 @@
-algoritmo "SomaParametrosReferencia"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio031"
 var
     X, Y: inteiro
 Procedimento Soma ( var A, B: inteiro)
@@ -14,6 +10,8 @@ inicio
       escreval(" Soma A + B = ", A+B)
 FimProcedimento
 inicio
+      escreval("Somando Parametros por Referencia:")
+      escreval()
       X <- 4
       Y <- 8
       Soma(X, Y)
