@@ -1,20 +1,20 @@
 algoritmo "desafio024"
 var
     n1, n2, Somador: inteiro
-funcao Soma(A, B: inteiro) : inteiro //O valor de retorno que esta função dara ao programa principal
+funcao Soma(A, B: inteiro) : inteiro //O valor de retorno que esta funÃ§Ã£o dara ao programa
 var
 inicio
       retorne A + B
 fimfuncao
 inicio
-      escreval("Somador usando FUNÇÃO!")
+      escreval("Somador usando FUNÃ‡ÃƒO!")
       escreval()
-      escreva("Digite o 1° valor: ")
+      escreva("Digite o 1Â° valor: ")
       leia(n1)
       escreval()
-      escreva("Digite o 2° valor: ")
+      escreva("Digite o 2Â° valor: ")
       leia(n2)
       escreval()
       Somador <- Soma(n1, n2)
-      escreval("A soma de",n1," +",n2," é = ",Somador)
+      escreval("A soma de",n1," +",n2," Ã© = ",Somador)
 fimalgoritmo
