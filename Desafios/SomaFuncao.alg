@@ -1,7 +1,7 @@
 algoritmo "desafio024"
 var
     n1, n2, Somador: inteiro
-funcao Soma(A, B: inteiro) : inteiro //O valor de retorno que esta função dara ao programa
+funcao Soma(A, B: inteiro) : inteiro //O valor de retorno que esta função dara ao programa principal
 var
 inicio
       retorne A + B
