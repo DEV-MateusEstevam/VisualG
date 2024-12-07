@@ -1,13 +1,11 @@
-algoritmo "ordenação de vetor"
-// Função :
-// Autor :
-// Data : 09/07/2022
-// Seção de Declarações 
+algoritmo "desafio034"
 var
    c, p, Vajuda: inteiro
    n: vetor[1..10] de inteiro
    
 inicio
+      escreval("Ordenação de Vetores:")
+      escreval()
       para c <- 1 ate 10 faca
            escreva("Digite o",c,"° valor: ")
            leia(n[c])
@@ -22,9 +20,9 @@ inicio
                 fimse
            fimpara
       fimpara
-      
+      escreval()
       para c <- 1 ate 10 faca
            escreva("{",n[c],"}")
       fimpara
-      
+      escreval()
 fimalgoritmo
