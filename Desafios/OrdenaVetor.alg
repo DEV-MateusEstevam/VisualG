@@ -1,14 +1,12 @@
-algoritmo " ordenaVetor"
-// Função :
-// Autor :
-// Data : 18/06/2021
-// Seção de Declarações 
+algoritmo "desafio033"
 var
    vet: vetor[1..10] de inteiro
    i, j, aux: inteiro
 inicio
+      escreval("Ordenando números em um Vetor:")
+      escreval()
       para i <- 1 ate 10 faca
-           escreva(" Digite um valor: ")
+           escreva("Digite um valor: ")
            leia(vet[i])
       FimPara
       para i <- 1 ate 9 faca // 1 ate 3 porque é as vezes q vai comparar da 1° ate a 3° casa
@@ -20,8 +18,10 @@ inicio
                 fimSe
            Fimpara
       Fimpara
+      escreval()
       //mostrar vetor
       para i <- 1 ate 10 faca
            escreva("[", vet[i], "]")
       Fimpara
+      escreval()
 fimalgoritmo
