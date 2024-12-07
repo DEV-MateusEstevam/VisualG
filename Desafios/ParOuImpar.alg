@@ -1,17 +1,14 @@
-algoritmo "ParOuImpar"
-// Função :
-// Autor :
-// Data : 16/06/2021
-// Seção de Declarações
+algoritmo "desafio035"
 var
 N: inteiro
 inicio
-Escreva("Digite um numero qualquer: ")
+Escreva("Digite um numero qualquer e descubra se o mesmo é PAR ou IMPAR: ")
 Leia(N)
+escreval()
 Se (N % 2 = 0) entao
-   Escreval("O numero ", N, " é PAR")
+   Escreval("O numero ",N, " é PAR")
 Senao
-   Escreval("O numero ", N, " é IMPAR")
+   Escreval("O numero ",N, " é IMPAR")
 FimSe
 //CTRL + G identa automaticamente
 fimalgoritmo
