@@ -1,8 +1,4 @@
-algoritmo "Verificar Par ou IMPar"
-// Função :
-// Autor :
-// Data : 04/07/2022
-// Seção de Declarações 
+algoritmo "desafio037"
 var
    n: inteiro
    resultado: caractere
@@ -16,9 +12,12 @@ inicio
       fimse
 fimfuncao
 inicio
+      escreval("PAR ou IMPAR usando Função")
+      escreval()
       escreva("Digite um número: ")
       leia(n)
       resultado <- ParouImpar(n)
+      escreval()
       escreval("O número",n," é um valor ",resultado)
 
 fimalgoritmo
