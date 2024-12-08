@@ -1,4 +1,4 @@
-algoritmo "ParOuImparProcedimento"
+algoritmo "desafio036"
 var
    N: inteiro
 Procedimento ParOuImpar(V: inteiro)
