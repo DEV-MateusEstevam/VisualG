@@ -1,7 +1,9 @@
-algoritmo "PartidaFutebol"
+algoritmo "desafio039"
 var
    gols1, gols2, dif: Real
 inicio
+      escreval("Partidas de Futebol")
+      escreval()
       EscrevaL("-----------------------")
       EscrevaL("   BANGU x MADUREIRA   ")
       EscrevaL("-----------------------")
