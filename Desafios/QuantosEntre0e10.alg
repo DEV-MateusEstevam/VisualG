@@ -1,15 +1,13 @@
-algoritmo "QuantosEntre0e10"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio038"
 var
       C, V, tot010, Simp: inteiro
 inicio
+      escreval("Quantos números estão entre 0 e 10:")
+      escreval()
        tot010 <- 0
        Simp <- 0
        para C <- 1 ate 6 faca
-            escreva(" Digite um valor: ")
+            escreva("Digite um valor: ")
             leia(V)
             Se (V>=0) e (V<=10) entao
                tot010 <- tot010 + 1
@@ -21,6 +19,7 @@ inicio
                Simp <- Simp + V
             FimSe  //PARA SOMAR NUMEROS IMPARES FORA DOM PARAMETRO 0 E 10
        FimPara
-       Escreval(" Ao todo foram ", tot010, " valores entre 0 e 10")
-       escreval(" Nesse intervalo, a soma de impares foi ", Simp)
+       escreval()
+       Escreval("Ao todo foram ", tot010, " valores entre 0 e 10")
+       escreval("Nesse intervalo, a soma de impares foi ", Simp)
 fimalgoritmo
