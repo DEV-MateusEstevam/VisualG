@@ -1,8 +1,4 @@
-algoritmo "VerificadorParOuImpar"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações
+algoritmo "desafio040"
 var
    n: inteiro
 procedimento ParouImpar(v: inteiro)
@@ -16,7 +12,10 @@ inicio
       fimse
 fimprocedimento
 inicio
+      escreval("Verificando número se é PAR ou IMPAR:")
+      escreval()
       escreva("Digite um número: ")
       leia(n)
+      escreval()
       ParouImpar(n)
 fimalgoritmo
