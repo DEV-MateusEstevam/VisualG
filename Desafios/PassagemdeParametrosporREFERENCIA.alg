@@ -1,8 +1,4 @@
-algoritmo "Passagem de parametros por REFERENCIA"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "desafio042"
 var
  x, y:inteiro
  procedimento soma(var a, b: inteiro)// com o "var" as referencias respectivamete de x e y são passadas a A e b
@@ -13,6 +9,8 @@ var
        escreval("A soma vale", A + B)
  fimprocedimento
 inicio
+      escreval("Passagem de parametros por REFERENCIA:")
+      escreval()
       x <- 4
       y <- 8
       soma(x, y)
