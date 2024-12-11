@@ -1,15 +1,14 @@
-algoritmo "NumeroPrimo"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio43"
 var
     C, N, contDiv: inteiro
 inicio
+      escreval("Descubra se o número digitado é PRIMO:")
+      escreval()
       C <- 1
       contDiv <-0
-      escreva("Difite um numero: ")
+      escreva("Digite um numero: ")
       leia(N)
+      escreval()
       repita
             //Escreva(C)
             Se(N % C = 0) entao //SE o Numero é divisivel pelo Contador = 0
@@ -18,9 +17,9 @@ inicio
             C <- C + 1
       ate(C > N)
       Se (contDiv > 2) entao
-         escreval(" O valor ", N, " não é Primo!")
+         escreval("O valor ", N, " não é Primo!")
       Senao
-           Escreval(" O valor ", N, " é primo!")
+           Escreval("O valor ", N, " é primo!")
       FimSe
       //escreval("Ao todo existem ", contDiv, " valores divisiveis.")
       //escreval("Se for divisivel por apenas 2 valores é Primo, se for divisivel por mais não é Primo.")
