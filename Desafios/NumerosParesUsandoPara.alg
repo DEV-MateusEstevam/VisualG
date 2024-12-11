@@ -1,4 +1,4 @@
-algoritmo "Números pares"
+algoritmo "desafio044"
 var
    contador, fim, comeco: inteiro
 inicio
