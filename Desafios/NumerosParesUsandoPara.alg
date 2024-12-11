@@ -1,8 +1,4 @@
 algoritmo "Números pares"
-// Função :
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
 var
    contador, fim, comeco: inteiro
 inicio
@@ -17,6 +13,4 @@ inicio
       para contador <- fim ate comeco passo -2 faca
            escreva(contador)
       fimpara
-      
-      
 fimalgoritmo
