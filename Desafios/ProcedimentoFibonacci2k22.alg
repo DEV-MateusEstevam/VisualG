@@ -1,8 +1,4 @@
-algoritmo "Sequencia de Fibonacci"
-// Função :
-// Autor :
-// Data : 03/07/2022
-// Seção de Declarações 
+algoritmo "desafio041"
 var
    v1,v2,v3,contador: inteiro
 procedimento Fibonacci(var a, b: inteiro)
@@ -15,6 +11,8 @@ inicio
       b <- c
 fimprocedimento
 inicio
+      escreval("Sequencia de Fibonacci:")
+      escreval()
       v1 <- 0
       escreva(v1)
       v2 <- 1
@@ -26,5 +24,5 @@ inicio
            //v1 <- v2
            //v2 <- v3
       fimpara
-      
+      escreval()
 fimalgoritmo
