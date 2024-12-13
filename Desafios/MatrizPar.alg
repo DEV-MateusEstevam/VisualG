@@ -1,15 +1,13 @@
-algoritmo "MatrizPar"
-// Função :
-// Autor :
-// Data : 19/06/2021
-// Seção de Declarações 
+algoritmo "desafio045"
 var
    valores: vetor[1..3, 1..3] de inteiro
    l, c, totPar: inteiro
 inicio
+      escreval("Matriz PAR")
+      escreval()
       para l <- 1 ate 3 faca
            para c <- 1 ate 3 faca
-                escreva(" Digite o valor da posição [ ", l, ",", c, " ]: ")
+                escreva("Digite o valor da posição [ ", l, ",", c, " ]: ")
                 leia(valores[l, c])
            Fimpara
       Fimpara
@@ -29,6 +27,6 @@ inicio
            Fimpara
            escreval()
       Fimpara
-      
+      escreval()
       escreval(" Ao todo foram digitados ", totPar, " valores PARES ")
 fimalgoritmo
