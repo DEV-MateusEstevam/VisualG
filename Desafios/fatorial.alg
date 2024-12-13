@@ -1,12 +1,10 @@
-algoritmo "Fatorial"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio050"
 var
       C, N, F: inteiro
       R: caractere
 inicio
+      escreval("Descobrindo o Fatorial:")
+      escreval()
 repita
       Escreva("Digite um numero: ")
       Leia(N)
@@ -17,8 +15,10 @@ repita
             F <- F * C
             C <- C -1
       ate(c < 1)
-      escreva("O valor de fatorial de ", N," é igual a ", F)
-     escreval(" Quer continuar? (S/N)")
+      escreval()
+      escreval("O valor de fatorial de ", N," é igual a ", F)
+      escreval()
+      escreval(" Quer continuar? (S/N)")
       leia(R)
       limpatela
 ate(R = "N")
