@@ -1,12 +1,10 @@
-algoritmo "MatrizIdentidade"
-// Função :
-// Autor :
-// Data : 19/06/2021
-// Seção de Declarações 
+algoritmo "desafio049"
 var
    mID: vetor[1..4, 1..4] de inteiro
    i, j: inteiro
 inicio
+      escreval("MatrizIdentidade:")
+      escreval()
       para i <- 1 ate 4 faca
            para j <- 1 ate 4 faca
                 Se (i = j) entao
