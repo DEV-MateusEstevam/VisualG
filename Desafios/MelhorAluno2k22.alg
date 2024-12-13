@@ -1,14 +1,18 @@
-algoritmo "Melhor Aluno da Turma"
+algoritmo "desafio048"
 var
    A, contador: inteiro
    N, maior: real
    nome, Maluno: caractere
 inicio
+      escreval("Descubra o Melhor Aluno da Turma:")
+      escreval()
       escreval("----------------------")
       escreval("ESCOLA SANTA PACIENCIA")
       escreval("----------------------")
+      escreval()
       escreva("Quantos alunos tem a turma? ")
       leia(A)
+      escreval()
       contador <- 1
       enquanto (contador <= A) faca
                escreval("----------")
@@ -17,7 +21,7 @@ inicio
                leia(nome)
                escreva("Nota de ", nome,": ")
                leia(N)
-
+               escreval()
                contador <- contador + 1
                
                se (N > maior) entao
