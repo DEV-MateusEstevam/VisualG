@@ -1,8 +1,4 @@
-algoritmo "LugaresCinema"
-// Algoritmo para resolver lugares em uam sala de cinema.
-// Autor :
-// Data : 18/06/2021
-// Seção de Declarações 
+algoritmo "desafio051"
 var
    B: vetor[1..19]de caractere
    l, cad: inteiro
@@ -20,23 +16,27 @@ inicio
            FimSe
       Fimpara
       escreval()
-      escreval("--------------------")
+      escreval()
 Fimprocedimento
 
 inicio
+
       repita
             limpatela
             MostraFileira()
-            EScreva(" Reservar a cadeira: B")
+            escreval("Algoritmo para resolver lugares em uam sala de cinema:")
+            escreval()
+            EScreva("Reservar a cadeira: B")
             leia(cad)
+            escreval()
             SE (B[cad]="")entao
                B[cad] <- "X"
-               escreval(" Cadeira B", cad, " RESERVADA! ")
+               escreval("Cadeira B", cad, " RESERVADA! ")
             Senao
-                 escreval(" ERRO: Lugar Ocupado! ")
+                 escreval("ERRO: Lugar Ocupado! ")
             FimSe
-            escreva(" Quer reservar outro lugar? [S/N]")
+            escreval()
+            escreva("Quer reservar outro lugar? [S/N]")
             leia(r)
       ate(r="N")
-      
 fimalgoritmo
