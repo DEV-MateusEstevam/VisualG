@@ -18,9 +18,7 @@ inicio
       escreval()
       escreval()
 Fimprocedimento
-
 inicio
-
       repita
             limpatela
             MostraFileira()
