@@ -1,8 +1,4 @@
-algoritmo "Listagem de um Turma.  Quais são os alunos acima da media?"
-// Função :
-// Autor :
-// Data : 09/07/2022
-// Seção de Declarações 
+algoritmo "desafio052"
 var
    nome: vetor[1..4] de caractere
    n1: vetor[1..4] de real
@@ -11,14 +7,16 @@ var
    SomaM, MediaT: real
    c, Talunos: inteiro
 inicio
+      escreval("Listagem de um Turma. Quais são os alunos acima da media?")
+      escreval()
       para c <- 1 ate 4 faca
       escreva("Digite o nome do",c,"° aluno: ")
       leia(nome[c])
-      escreva("Digite a 1° nota do aluno: ")
+      escreva("Digite a 1° nota do ",nome[c],": ")
       leia(n1[c])
-      escreva("Digite a 2° nota do aluno: ")
+      escreva("Digite a 2° nota do ",nome[c],": ")
       leia(n2[c])
-      escreval("----------------------------")
+      escreval()
       media[c] <- (n1[c] + n2[c])/2
       SomaM <- SomaM + media[c]
       fimpara
@@ -34,5 +32,6 @@ inicio
               Talunos <- Talunos + 1
            fimse
       fimpara
+      escreval()
       escreval("Temos apenas ",Talunos," acima da média de toda a turma que é",MediaT:4:1)
 fimalgoritmo
