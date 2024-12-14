@@ -22,7 +22,7 @@ inicio
       repita
             limpatela
             MostraFileira()
-            escreval("Algoritmo para resolver lugares em uam sala de cinema:")
+            escreval("Algoritmo para resolver lugares em uma sala de cinema:")
             escreval()
             EScreva("Reservar a cadeira: B")
             leia(cad)
