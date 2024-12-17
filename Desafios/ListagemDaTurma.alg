@@ -1,8 +1,4 @@
-algoritmo "ListagemDaTurma"
-// Função :
-// Autor :
-// Data : 18/06/2021
-// Seção de Declarações 
+algoritmo "desafio052"
 var
     nome: vetor[1..4] de caractere
     n1: vetor[1..4] de real
@@ -11,16 +7,19 @@ var
     SM, MT: real
     i, tot: inteiro
 inicio
+      escreval("Listagem da Turma:")
+      escreval()
        para i <- 1 ate 4 faca
-            escreval(" ALUNO ", i)
-            Escreva(" Nome: ")
+            escreval("ALUNO ", i)
+            Escreva("Nome: ")
             leia(nome[i])
             escreva("Primeira nota: ")
             leia(n1[i])
-            escreva(" Segunda nota: ")
+            escreva("Segunda nota: ")
             leia(n2[i])
             m[i] <- (n1[i] + n2[i])/2
             SM <- SM + m[i]
+            escreval()
        Fimpara
        MT <- SM/4
        limpatela
@@ -32,5 +31,6 @@ inicio
                tot <- tot + 1
             FimSe
        FimPara
-       escrevaL(" Ao todo temos ", tot, " acima da média da turma que é ", MT:4:1)
+       escreval()
+       escrevaL("Ao todo temos ", tot, " acima da média da turma que é ", MT:4:1)
 fimalgoritmo
