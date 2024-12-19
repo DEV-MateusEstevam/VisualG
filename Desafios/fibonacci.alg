@@ -1,11 +1,9 @@
-algoritmo "Fibonacci"
-// algoritmo para mostrar os 15 primeiros termos de uma serie de
-// Fibonacci(0,1,1,2,3,5,8,...)
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio056"
 var
      C, T1, T2, T3:inteiro
 inicio
+     escreval("Algoritmo para mostrar os 15 primeiros termos de uma serie de Fibonacci:")
+     escreval()
       T1 <- 0
       escreva(T1)
       T2 <- 1
@@ -16,5 +14,5 @@ inicio
            T1 := T2
            T2 := T3
       fimPara
-      
+      escreval()
 fimalgoritmo
