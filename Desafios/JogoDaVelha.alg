@@ -1,10 +1,4 @@
-algoritmo "jogoVelha"
-// =============================================================
-// Algoritmo para criar um jogo da velha.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+algoritmo "desafio055"
 var
   v: vetor[1..3, 1..3] de Caractere
   L, C, Cont, Po: Inteiro
@@ -13,6 +7,8 @@ var
 
 Procedimento mostraVelha()
 Inicio
+      escreval("Algoritmo para criar um jogo da velha.")
+      escreval()
    EscrevaL("+---+---+---+")
    Para L <- 1 ate 3 faca
       Para C <- 1 ate 3 faca
@@ -21,6 +17,7 @@ Inicio
       Escreva("|")
       EscrevaL()
       EscrevaL("+---+---+---+")
+      escreval()
    FimPara
 FimProcedimento
 
