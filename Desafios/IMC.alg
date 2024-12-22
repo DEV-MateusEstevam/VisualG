@@ -1,17 +1,18 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 16/06/2021
-// Seção de Declarações 
+algoritmo "desafio057"
 var
    M, A, IMC: real
 inicio
+      escreval("Programa de calculo IMC:")
+      escreval()
       Escreva("Massa (Kg): ")
       Leia(M)
+      escreval()
       Escreva("Altura (m): ")
       Leia(A)
+      escreval()
       IMC <- M / (A ^ 2)
       Escreval("IMC: ", IMC:5:2)
+      escreval()
       Se (IMC<17) entao
          Escreval("Muito abaixo do peso")
       Senao
