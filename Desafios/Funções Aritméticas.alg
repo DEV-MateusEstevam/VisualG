@@ -1,16 +1,24 @@
-algoritmo "Funções Aritméticas"
-// Função :
-// Autor :
-// Data : 18/06/2022
-// Seção de Declarações 
+algoritmo "desafio058"
 var
    a: real
+   b: real
+   c: real
+   d: inteiro
+   f: real
+   g: real
 inicio
-       //a <- abs(-50) valor absoluto
-       //a<- exp(9, 5)exponenciando 9 a 5° potencia
-       //a<- raizq(81)raiz quadrada
-       //a<- int(raizq(90))
-       //a<- grauprad(90)conversão de graus para radianos
-       a<- sen(grauprad(90))// conventendo 90 para radianos e informando em seno que só aceita valores em radianos
-       escreva(a)
+      escreval("Funções Aritméticas:")
+      escreval()
+       a <- abs(-50)
+       b <- exp(9, 5)
+       c <- raizq(81)
+       d <- int(raizq(90))
+       f <- grauprad(90)
+       g <- sen(grauprad(90))
+       escreval("valor absoluto: ",a)
+       escreval("exponenciando 9 a 5° potencia",b)
+       escreval("raiz quadrada",c)
+       escreval("conversão de graus para radianos",d)
+       escreval("conventendo 90 para radianos",f)
+       escreval("informando em seno que só aceita valores em radianos",g)
 fimalgoritmo
