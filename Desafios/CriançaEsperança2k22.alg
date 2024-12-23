@@ -1,14 +1,11 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 04/07/2022
-// Seção de Declarações 
+algoritmo "desafio062"
 var
    opcao: inteiro
    valor: real
 inicio
 
       repita
+      escreval()
       escreval("-----------------------------------")
       escreval(" C R I A N Ç A   E S P E R A N Ç A ")
       escreval("-----------------------------------")
@@ -19,6 +16,7 @@ inicio
       escreval(" [4] para doar outros valores ")
       escreval(" [5] para cancelar ")
       leia(opcao)
+      escreval()
       escolha opcao
               caso 1
                    escreval("-----------------------------------")
