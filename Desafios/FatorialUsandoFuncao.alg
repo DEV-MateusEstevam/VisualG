@@ -1,8 +1,4 @@
-algoritmo "Fatorial de um número"
-// Função :
-// Autor :
-// Data : 04/07/2022
-// Seção de Declarações 
+algoritmo "desafio060"
 var
    n, f: inteiro
 
@@ -19,8 +15,11 @@ inicio
 fimfuncao
 
 inicio
+      escreval("Fatorial de um número!")
+      escreval()
       escreva("Digite um número: ")
       leia(n)
+      escreval()
       f <- Fatorial(n)//Variavel recebe Função Fatorial(valor da variavel n)
-      escreval("O valor de",n,"! é igual a",f)//!=símbolo de Fatorial
+      escreval("O fatorial de",n," é igual a",f)//!=símbolo de Fatorial
 fimalgoritmo
