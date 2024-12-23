@@ -1,10 +1,10 @@
-algoritmo "CriançaEsperança"
+algoritmo "desafio061"
 var
    D: inteiro
    valor: real
 inicio
       Escreval("----------------------------")
-      Escreval(" CRIANÇA ESPERANÇA ")
+      Escreval(" CRIANÃ‡A ESPERANÃ‡A ")
       Escreval("----------------------------")
       Escreval(" Muito Obrigado por ajudar! ")
       Escreval(" (1) para doar R$10 ")
@@ -21,14 +21,14 @@ inicio
               Caso 3
                    valor <- 50
               Caso 4
-                    Escreva("Qual o valor da doação? R$")
+                    Escreva("Qual o valor da doaÃ§Ã£o? R$")
                     Leia(valor)
               Caso 5
                    valor <- 0
       FimEscolha
       escreval()
       Escreval("------------------------")
-      Escreval(" SUA DOAÇÃO FOI DE R$", valor)
+      Escreval(" SUA DOAÃ‡ÃƒO FOI DE R$", valor)
       Escreval(" MUITO OBRIGADO! ")
       Escreval("-----------------------")
 fimalgoritmo
