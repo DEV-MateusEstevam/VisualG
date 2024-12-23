@@ -1,8 +1,4 @@
 algoritmo "CriançaEsperança"
-// Função :
-// Autor :
-// Data : 16/06/2021
-// Seção de Declarações 
 var
    D: inteiro
    valor: real
@@ -30,7 +26,8 @@ inicio
               Caso 5
                    valor <- 0
       FimEscolha
-      Escreval("-----------------------4")
+      escreval()
+      Escreval("------------------------")
       Escreval(" SUA DOAÇÃO FOI DE R$", valor)
       Escreval(" MUITO OBRIGADO! ")
       Escreval("-----------------------")
