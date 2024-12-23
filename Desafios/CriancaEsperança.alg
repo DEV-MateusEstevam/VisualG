@@ -4,7 +4,7 @@ var
    valor: real
 inicio
       Escreval("----------------------------")
-      Escreval(" CRIANÃ‡A ESPERANÃ‡A ")
+      Escreval(" CRIANÇA ESPERANÇA ")
       Escreval("----------------------------")
       Escreval(" Muito Obrigado por ajudar! ")
       Escreval(" (1) para doar R$10 ")
@@ -21,14 +21,14 @@ inicio
               Caso 3
                    valor <- 50
               Caso 4
-                    Escreva("Qual o valor da doaÃ§Ã£o? R$")
+                    Escreva("Qual o valor da doação? R$")
                     Leia(valor)
               Caso 5
                    valor <- 0
       FimEscolha
       escreval()
       Escreval("------------------------")
-      Escreval(" SUA DOAÃ‡ÃƒO FOI DE R$", valor)
+      Escreval(" SUA DOAÇÃO FOI DE R$", valor)
       Escreval(" MUITO OBRIGADO! ")
       Escreval("-----------------------")
 fimalgoritmo
