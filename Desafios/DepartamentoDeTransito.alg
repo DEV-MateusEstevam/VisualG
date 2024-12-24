@@ -1,8 +1,4 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 16/06/2021
-// Seção de Declarações 
+algoritmo "desafio063"
 var
    Ano_atual, Ano_nasc, IDADE: real
 inicio
@@ -13,6 +9,7 @@ inicio
       Leia(Ano_atual)
       Escreva(" Ano de Nascimento: ")
       Leia(Ano_nasc)
+      escreval()
       IDADE <- Ano_atual - Ano_nasc
       Se (IDADE >=18) entao
          Escreval("-----------STATUS--------")
@@ -25,6 +22,4 @@ inicio
            Escreval(" INAPTO A TIRAR A CARTEIRA ")
            Escreval("---------------------------")
       FimSe
-      
-      
 fimalgoritmo
