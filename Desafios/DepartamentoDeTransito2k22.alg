@@ -1,8 +1,4 @@
-algoritmo "Departamento de transito"
-// Função :
-// Autor :
-// Data : 26/06/2022
-// Seção de Declarações 
+algoritmo "desafio064"
 var
    nasc, atual, idade: inteiro
 inicio
@@ -13,6 +9,7 @@ inicio
       leia(nasc)
       escreva("Digite agora o ano que estamos atualmente: ")
       leia(atual)
+      escreval()
       idade <- atual - nasc
       se (idade >=18) entao
          escreval("SUA IDADE É DE",idade," ANOS E VOCÊ ESTÁ APTO A TIRAR A CARTEIRA DE MOTORISTA!")
