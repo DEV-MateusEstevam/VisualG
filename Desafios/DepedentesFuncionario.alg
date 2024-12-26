@@ -1,19 +1,21 @@
-algoritmo "DependetesFuncionario"
-// Função :
-// Autor :
-// Data : 16/06/2021
-// Seção de Declarações 
+algoritmo "desafio066"
 var
    nome: caractere
    sal, nsal: real
    dep: inteiro
 inicio
+
+      escreval("Calculo de Dependentes dos Funcionarios:")
+      escreval();
       Escreva("Qual o nome do Funcionario? ")
       Leia(nome)
+      escreval()
       Escreva("Qual o sálario do Funcionario? ")
       Leia(sal)
+      escreval()
       Escreva("Qual a quantidade de dependentes? ")
       Leia(dep)
+      escreval()
       Escolha dep
               Caso 0
                    nsal <- sal + (sal*5/100)
