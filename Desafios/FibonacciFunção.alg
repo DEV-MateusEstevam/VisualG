@@ -1,8 +1,4 @@
-algoritmo "FibonacciFunção"
-// Função :
-// Autor :
-// Data : 18/06/2021
-// Seção de Declarações 
+algoritmo "desafio067"
 var
   I, T1, T2, T3: inteiro
 Funcao ProximoFibonacci(var N1, N2: inteiro): inteiro
@@ -15,6 +11,8 @@ inicio
       retorne N3
 FimFuncao
 inicio
+      escreval("Sequencia de Fibonacci usando Funcão:")
+      escreval()
        T1 <- 0
        escreval(T1)
        T2 <- 1
@@ -23,5 +21,4 @@ inicio
             T3 <- ProximoFibonacci(T1, T2)
             escreval(T3)
        FimPara
-       
 fimalgoritmo
