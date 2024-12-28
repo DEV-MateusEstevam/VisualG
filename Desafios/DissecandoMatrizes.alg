@@ -1,10 +1,4 @@
-algoritmo "dissecandoMatrizes"
-// =============================================================
-// Algoritmo para preencher uma matriz de quarta ordem e mostrar:
-// - Os elementos da diagonal principal
-// - Os elementos do triangulo superior
-// - Os elementos do triangulo inferior
-// - A matriz completa
+algoritmo "desafio069"
 var
    m: vetor[1..4, 1..4] de inteiro
    l, c, op:inteiro
@@ -59,6 +53,15 @@ inicio
 fimprocedimento
 
 inicio
+      escreval("DISSECANDO MATRIZES")
+      escreval()
+      escreval("Algoritmo para preencher uma matriz de quarta ordem e mostrar:")
+      escreval("- Os elementos da diagonal principal")
+      escreval("- Os elementos do triangulo superior")
+      escreval("- Os elementos do triangulo inferior")
+      escreval("- A matriz completa")
+      escreval()
+      
        para l <- 1 ate 4 faca
             para c <- 1 ate 4 faca
                  escreva(" Digite o valor na posição [", l, ",", c, "]: ")
