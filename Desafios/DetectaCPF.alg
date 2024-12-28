@@ -1,17 +1,20 @@
-algoritmo "detectaCDF"
+algoritmo "desafio070"
 var
    tot, cont: Inteiro
    nome, melhorAluno: Caractere
    nota, maiorNota: Real
 inicio
+      escreval("DETECTANDO CDF:")
       Escreval("------------------------")
       Escreval(" Escola Santa Paciencia ")
       Escreval("------------------------")
+      escreval()
       Escreva("Quantos alunos a turma tem? ")
       Leia(tot)
       cont <- 1
       Enquanto (cont <= tot) faca
          Escreval("---------------")
+         escreval()
          Escreval("ALUNO ", cont)
          Escreva("Nome do aluno: ")
          Leia(nome)
@@ -24,6 +27,7 @@ inicio
          cont <- cont + 1
       FimEnquanto
       Escreval("-------------------")
+      escreval()
       Escreval("O melhor aproveitamento foi de ", melhorAluno, " com a nota ", maiorNota:3:1)
 fimalgoritmo
 
