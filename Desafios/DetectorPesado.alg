@@ -1,8 +1,4 @@
-algoritmo "DetectandoPesado"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio072"
 var
    I:inteiro
    N, Pesado: caractere
@@ -10,18 +6,21 @@ var
 Procedimento Topo()
 inicio
       LimpaTela
-      Escreval("----------------------------------")
-      escreval("        DETECTOR DE PESADO        ")
-      escreval(" Maior Peso até agora: ", Mai, "Kg")
-      escreval("----------------------------------")
+      Escreval("---------------------------------")
+      escreval("        DETECTOR DE PESADO       ")
+      escreval("Maior Peso até agora: ", Mai, "Kg")
+      escreval("---------------------------------")
+      escreval()
 FimProcedimento
 inicio
       Topo()
       para I <- 1 ate 5 faca
            Escreva("Digite o nome: ")
            leia(N)
-           escreva(" Digite o peso de ", N, ":")
+           escreval()
+           escreva("Digite o peso de ", N, ": ")
            leia(P)
+           escreval()
            se (P>Mai) entao
               MAI <- P
               Pesado <- N
@@ -29,6 +28,5 @@ inicio
            Topo()
       FimPara
       Topo()
-      escreval(" A pessoa mais pesada foi ", Pesado, ",com ", Mai, " quilos." )
-      
+      escreval("A pessoa mais pesada foi ", Pesado, ",com ", Mai, " quilos.")
 fimalgoritmo
