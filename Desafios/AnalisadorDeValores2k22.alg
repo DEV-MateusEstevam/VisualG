@@ -1,12 +1,10 @@
-algoritmo "AnalisadorDeValores"
-// Função :exibir:soma dos valores,mdia entre eles,quantos são divisiveis por 5, qunatos são nulos(n=0), soma dos pares
-// Autor :
-// Data : 02/07/2022
-// Seção de Declarações 
+algoritmo "desafio073"
 var
    contador, n, soma, divi, nulo, par: inteiro
    media: real
 inicio
+      escreval("Insira 6 números e os mesmos seram analisados: ")
+      escreval()
       soma <- 0
       divi <- 0
       nulo <- 0
@@ -26,9 +24,14 @@ inicio
       soma <- soma + n
       media <- soma / 6
       fimpara
+      escreval()
       escreval("A soma entre os valores digitados é",soma)
+      escreval()
       escreval("A média entre os valores digitados é de",media)
+      escreval()
       escreval("Dos valores digitados os que são divisiveis por 5 são",divi)
+      escreval()
       escreval("De todos os valores digitados o total que são nulos são",nulo)
+      escreval()
       escreval("A soma de todos os valores pares digitados é",par)
 fimalgoritmo
