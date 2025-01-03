@@ -1,18 +1,17 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 27/06/2022
-// Seção de Declarações 
+algoritmo "desafio078"
 var
    n1,n2,media: real
 inicio
       escreval("---------------------")
       escreval("ESCOLA JAVALI CANSADO")
       escreval("---------------------")
+      escreval()
       escreva("Aluno(a) digite o valor da sua 1° nota: ")
       leia(n1)
+      escreval()
       escreva("Agora digite o valor da 2° nota: ")
       leia(n2)
+      escreval()
       media <- (n1 + n2) / 2
       escreval("---------------------")
       escreval("MÉDIA:",media)
@@ -38,7 +37,4 @@ inicio
            fimse
       fimse
       escreval("---------------------")
-
-      
-      
 fimalgoritmo
