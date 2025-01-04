@@ -1,8 +1,4 @@
-algoritmo "Chupar bala SENAI"
-// Função :
-// Autor :
-// Data : 16/07/2022
-// Seção de Declarações 
+algoritmo "desafio081"
 var
    res: literal
 inicio
@@ -18,7 +14,7 @@ inicio
          escrevaL("Pegue a bala")
          escreval()
          
-         escreva("Já pegou a bala? ")
+         escreva("Já pegou a bala? [S/N] ")
          leia(res)
          escreval()
          
@@ -26,12 +22,12 @@ inicio
             escreval("Retire todo o plástico da bala!")
             escreval()
             
-            escreva("Já retirou todo o plástico da bala? ")
+            escreva("Já retirou todo o plástico da bala? [S/N] ")
             leia(res)
             escreval()
             
             se (res = "S") entao
-               escrevaL("Ponha a bala na boca e saboree!")
+               escrevaL("Ponha a bala na boca e saboreie!")
                res <- "N"
                escrevaL()
             senao
