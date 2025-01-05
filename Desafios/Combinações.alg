@@ -9,5 +9,4 @@ inicio
                 escreval(contador1," ",contador2)
            fimpara
       fimpara
-      
 fimalgoritmo
