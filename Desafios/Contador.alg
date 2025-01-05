@@ -1,4 +1,5 @@
 algoritmo "desafio084"
+
 var
     contador, valor, salto : inteiro
 inicio
