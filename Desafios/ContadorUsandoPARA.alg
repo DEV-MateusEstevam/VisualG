@@ -1,12 +1,11 @@
-algoritmo "Contador1a10UsandoPARA"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio087"
 var
         C: inteiro
 inicio
+      escreval("Contando de 10 até 1: ")
+      escreval()
       para C <- 10 ate 1 passo -1 faca
-           escreval(C)
+           escreva(C, " ")
       FimPara
+      escreval()
 fimalgoritmo
