@@ -1,11 +1,9 @@
 algoritmo "ContaNegativos"
-// Função :
-// Autor :
-// Data : 28/06/2022
-// Seção de Declarações 
 var
    n, contador, Totalneg: inteiro
 inicio
+      escreval("Contador de Negativos: ")
+      escreval()
       contador <- 1
       Totalneg <- 0
       repita
@@ -16,5 +14,6 @@ inicio
             fimse
             contador <- contador + 1
       ate(contador > 5)
-      escreva("A quantidade de números negativos digitados foi de", Totalneg)
+      escreval()
+      escreval("A quantidade de números negativos digitados foi de", Totalneg)
 fimalgoritmo
