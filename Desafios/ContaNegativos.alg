@@ -1,11 +1,9 @@
-algoritmo "ContaNegativos"
-// Função :
-// Autor :
-// Data : 17/06/2021
-// Seção de Declarações 
+algoritmo "desafio091"
 var
        N, C, totN: inteiro
 inicio
+      escreval("Contador Negativos: ")
+      escreval()
       C <- 1
       totN <- 0
       repita
@@ -16,5 +14,6 @@ inicio
             FimSe
             C <- C + 1
       ate(C>5)
-      Escreval(" Foram digitados ", totN, " valores negativos.")
+      escreval()
+      Escreval("Foram digitados ", totN, " valores negativos.")
 fimalgoritmo
