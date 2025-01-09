@@ -11,10 +11,10 @@ procedimento CadastroGabarito()
 var
    c:inteiro
 inicio
-      escreval(" PASSO 1 - Cadastro de Gabarito ")
-      EScreval("--------------------------------")
+      escreval("PASSO 1 - Cadastro de Gabarito ")
+      EScreval("-------------------------------")
       para c <- 1 ate 5 faca
-            escreva(" Questão ", c, ": ")
+            escreva("Questão ", c, ": ")
             leia(gab[c])
       FimPara
 Fimprocedimento
@@ -25,7 +25,7 @@ var
    notaFinal: real
 inicio
       notaFinal <- 0
-      escreval(" RESPOSTAS DADAS ")
+      escreval("RESPOSTAS DADAS ")
       para c <- 1 ate 5 faca
            escreva(" Questão ", c, ": ")
            leia(prova[c])
@@ -43,9 +43,9 @@ inicio
        
        para a <- 1 ate 3 faca
             limpatela
-            escrevaL("----------")
-            escreval(" ALUNO ", a)
-            escreval("----------")
+            escrevaL("---------")
+            escreval("ALUNO ", a)
+            escreval("---------")
             escreva(" Nome: ")
             leia(nome[a])
             nota[a] <- CadastroProva()
@@ -53,12 +53,13 @@ inicio
        FimPara
        
        limpatela
-       Escreval(" NOTAS FINAIS ")
-       escreval("--------------")
+       Escreval("NOTAS FINAIS ")
+       escreval("-------------")
        para a <- 1 ate 3 faca
             EScreval(nome[a]:10, nota[a]:4:1)
        FimPara
        m <- s/3
-       escreval("-----")
+       escreval("-----------------------")
        escreva(" Média da Turma: ", m:4:1)
+       escreval()
 fimalgoritmo
