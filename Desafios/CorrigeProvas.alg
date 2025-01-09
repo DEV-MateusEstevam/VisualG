@@ -1,8 +1,4 @@
-algoritmo "CorrigeProvas"
-// Algoritmo para corrigir uma prova, a partir de um gabarito.
-// Autor :
-// Data : 18/06/2021
-// Seção de Declarações 
+algoritmo "desafio095"
 var
    gab: vetor[1..5] de caractere
    prova: vetor[1..5] de caractere
@@ -41,6 +37,8 @@ inicio
 FimFuncao
 
 inicio
+      escreval("Algoritmo para corrigir uma prova, a partir de um gabarito: ")
+      escreval()
        CadastroGabarito()
        
        para a <- 1 ate 3 faca

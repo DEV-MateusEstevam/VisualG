@@ -17,5 +17,4 @@ inicio
                escreval("Posso ter US$", dolares:5:2)
                C <- C + 1
       fimenquanto
-      escreval()
 fimalgoritmo
