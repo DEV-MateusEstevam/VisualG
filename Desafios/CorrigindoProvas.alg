@@ -1,9 +1,4 @@
-algoritmo "Corrigindo Provas"
-// Função :
-// Autor :
-// Data : 10/07/2022
-// Seção de Declarações
-
+algoritmo "desafio096"
 var
    gab: vetor[1..5] de caractere
    prova: vetor[1..5] de caractere
@@ -42,6 +37,8 @@ inicio
 FimFuncao
 
 inicio
+      escreval("Corrigindo Provas: ")
+      escreval()
        CadastroGabarito()
 
        para a <- 1 ate 3 faca
